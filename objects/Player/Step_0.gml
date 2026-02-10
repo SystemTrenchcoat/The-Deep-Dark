@@ -30,12 +30,12 @@ if keyboard_check(vk_up )|| keyboard_check(vk_left) || keyboard_check(vk_down) |
 	{
 		if keyboard_check(vk_up)
 		{
-			angle = 5;
+			angle = 3;
 		}
 		
 		else if keyboard_check(vk_down)
 		{
-			angle = 3;
+			angle = 5;
 		}
 		
 		else
