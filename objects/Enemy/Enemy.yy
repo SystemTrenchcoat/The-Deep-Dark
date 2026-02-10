@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object1",
+  "%Name":"Enemy",
   "eventList":[],
   "managed":true,
-  "name":"Object1",
+  "name":"Enemy",
   "overriddenProperties":[],
   "parent":{
     "name":"The Deep Dark",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Enemy_Phr",
+    "path":"sprites/Enemy_Phr/Enemy_Phr.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
