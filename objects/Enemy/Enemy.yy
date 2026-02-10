@@ -6,8 +6,8 @@
   "name":"Enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"The Deep Dark",
-    "path":"The Deep Dark.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
