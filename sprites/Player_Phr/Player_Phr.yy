@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"The Deep Dark",
-    "path":"The Deep Dark.yyp",
+    "name":"Placeholder",
+    "path":"folders/Sprites/Placeholder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
