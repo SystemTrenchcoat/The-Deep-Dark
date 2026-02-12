@@ -60,3 +60,8 @@ Temporary Items
 
 # GMRT build directory
 Build
+
+#(Stewart) visual studio ignores
+.vs/
+*.sqlite
+*.wsuo
