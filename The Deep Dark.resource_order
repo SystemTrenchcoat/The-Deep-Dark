@@ -4,6 +4,9 @@
     {"name":"Rooms","order":7,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":8,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":5,"path":"folders/Sprites.yy",},
+    {"name":"Background","order":1,"path":"folders/Sprites/Background.yy",},
+    {"name":"Character","order":2,"path":"folders/Sprites/Character.yy",},
+    {"name":"Tile Sets","order":9,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
