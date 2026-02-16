@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Player_Phr",
-    "path":"sprites/Player_Phr/Player_Phr.yy",
+    "name":"DiverIdle",
+    "path":"sprites/DiverIdle/DiverIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

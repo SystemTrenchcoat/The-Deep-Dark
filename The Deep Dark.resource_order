@@ -10,6 +10,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
+    {"name":"DiverIdle","order":1,"path":"sprites/DiverIdle/DiverIdle.yy",},
     {"name":"Player_Phr","order":1,"path":"sprites/Player_Phr/Player_Phr.yy",},
   ],
 }
