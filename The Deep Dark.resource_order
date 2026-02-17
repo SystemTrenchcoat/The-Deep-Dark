@@ -8,5 +8,6 @@
   "ResourceOrderSettings":[
     {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
     {"name":"Player_Phr","order":1,"path":"sprites/Player_Phr/Player_Phr.yy",},
+    {"name":"Sprite3","order":1,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }

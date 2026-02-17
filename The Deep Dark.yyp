@@ -31,6 +31,7 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Enemy_Phr","path":"sprites/Enemy_Phr/Enemy_Phr.yy",},},
     {"id":{"name":"Player_Phr","path":"sprites/Player_Phr/Player_Phr.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
