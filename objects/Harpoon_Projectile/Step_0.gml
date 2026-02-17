@@ -1,9 +1,10 @@
-/// @description Insert description here
+
 // You can write your code in this editor
-if distance_to_object(Player) > 75
-{
-	global.returning = true
-}
+//if distance_to_object(Player) > 75
+//{
+	//speed = 0
+	//Harpoon_Projectile.alarm[0] = 30;
+//}
 
 if global.returning == true
 {
