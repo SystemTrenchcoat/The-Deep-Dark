@@ -4,10 +4,25 @@
     {"name":"Rooms","order":7,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":8,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":5,"path":"folders/Sprites.yy",},
+    {"name":"Background","order":1,"path":"folders/Sprites/Background.yy",},
+    {"name":"Character","order":2,"path":"folders/Sprites/Character.yy",},
+    {"name":"GameObjects","order":3,"path":"folders/Sprites/GameObjects.yy",},
+    {"name":"Tile Sets","order":9,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Harpoon_Gun","order":3,"path":"objects/Harpoon_Gun/Harpoon_Gun.yy",},
+    {"name":"Harpoon_Projectile","order":2,"path":"objects/Harpoon_Projectile/Harpoon_Projectile.yy",},
     {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
+    {"name":"DiverIdle","order":1,"path":"sprites/DiverIdle/DiverIdle.yy",},
+    {"name":"Harpoon","order":2,"path":"sprites/Harpoon/Harpoon.yy",},
+    {"name":"Krill_Enemy","order":2,"path":"sprites/Krill_Enemy/Krill_Enemy.yy",},
     {"name":"Player_Phr","order":1,"path":"sprites/Player_Phr/Player_Phr.yy",},
+<<<<<<< HEAD
     {"name":"Sprite3","order":1,"path":"sprites/Sprite3/Sprite3.yy",},
+=======
+    {"name":"Sprite10","order":11,"path":"sprites/Sprite10/Sprite10.yy",},
+    {"name":"Sprite9","order":10,"path":"sprites/Sprite9/Sprite9.yy",},
+    {"name":"Water_Bottle_Sprite","order":1,"path":"sprites/Water_Bottle_Sprite/Water_Bottle_Sprite.yy",},
+>>>>>>> de9978b6f7aa2486d8337fd8aaf28501ced0a0cc
   ],
 }
