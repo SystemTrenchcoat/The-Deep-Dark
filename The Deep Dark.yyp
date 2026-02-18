@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Objects/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Door","folderPath":"folders/Objects/Door.yy","name":"Door","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Harpoon","folderPath":"folders/Objects/Harpoon.yy","name":"Harpoon","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Parents","folderPath":"folders/Objects/Parents.yy","name":"Parents","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objects/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,6 +35,7 @@
   "name":"The Deep Dark",
   "resources":[
     {"id":{"name":"Damage","path":"objects/Damage/Damage.yy",},},
+    {"id":{"name":"Door","path":"objects/Door/Door.yy",},},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
     {"id":{"name":"Entity","path":"objects/Entity/Entity.yy",},},
     {"id":{"name":"Harpoon_Gun","path":"objects/Harpoon_Gun/Harpoon_Gun.yy",},},
@@ -44,6 +46,7 @@
     {"id":{"name":"Cave_Tileset","path":"sprites/Cave_Tileset/Cave_Tileset.yy",},},
     {"id":{"name":"DiverIdle","path":"sprites/DiverIdle/DiverIdle.yy",},},
     {"id":{"name":"DiverSwim","path":"sprites/DiverSwim/DiverSwim.yy",},},
+    {"id":{"name":"Door_Mask","path":"sprites/Door_Mask/Door_Mask.yy",},},
     {"id":{"name":"Enemy_Phr","path":"sprites/Enemy_Phr/Enemy_Phr.yy",},},
     {"id":{"name":"Harpoon","path":"sprites/Harpoon/Harpoon.yy",},},
     {"id":{"name":"Krill_Enemy","path":"sprites/Krill_Enemy/Krill_Enemy.yy",},},

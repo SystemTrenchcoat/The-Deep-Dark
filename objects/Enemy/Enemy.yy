@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Enemy_Phr",
-    "path":"sprites/Enemy_Phr/Enemy_Phr.yy",
+    "name":"Krill_Enemy",
+    "path":"sprites/Krill_Enemy/Krill_Enemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
