@@ -1,9 +1,6 @@
-
-
-
 //Code simplified using the 0 and 1 values provided by keyboard checks, vertical and horizontal will be -1 0 or 1 depending on inputs
-var vertical =  keyboard_check(vk_down) - keyboard_check(vk_up);
-var horizontal = keyboard_check(vk_right) - keyboard_check(vk_left);
+var vertical = ( keyboard_check(vk_down) || keyboard_check(ord("S")) ) - ( keyboard_check(vk_up) || keyboard_check(ord("W")) );
+var horizontal = ( keyboard_check(vk_right) || keyboard_check(ord("D")) ) - ( keyboard_check(vk_left) || keyboard_check(ord("A")) );
 
 
 
@@ -16,7 +13,8 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
         instance_create_layer(x, y, "Instances", Harpoon_Projectile)
 		global.fired = true
 }
-//I think we should use move_and_collide for MVI because we probably want to start with much simpler movement/easier to program collisions
+//I think we should use move_and_collide for MVI because we probably want to start with much simpler movement/
+// easier to program collisions
 
 //move_and_collide(8, 0, all);
 

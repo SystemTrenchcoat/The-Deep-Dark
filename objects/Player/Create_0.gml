@@ -1,5 +1,5 @@
 //Const/variable declarations go here
-moveSpeed = .1;
+moveSpeed = .015;
 global.fired = false
 global.returning = false
 //angle = 0;

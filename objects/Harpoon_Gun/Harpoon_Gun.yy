@@ -8,8 +8,8 @@
   "name":"Harpoon_Gun",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Harpoon",
+    "path":"folders/Objects/Harpoon.yy",
   },
   "parentObjectId":null,
   "persistent":false,

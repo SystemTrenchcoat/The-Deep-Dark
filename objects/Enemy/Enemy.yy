@@ -6,12 +6,18 @@
   ],
   "managed":true,
   "name":"Enemy",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"damageTag","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Enemy",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"propertyId":{"name":"hp","path":"objects/Entity/Entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Enemy",
+    "path":"folders/Objects/Enemy.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Entity",
+    "path":"objects/Entity/Entity.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
