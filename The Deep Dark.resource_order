@@ -8,5 +8,6 @@
   "ResourceOrderSettings":[
     {"name":"Entity","order":1,"path":"objects/Entity/Entity.yy",},
     {"name":"Harpoon_Projectile","order":1,"path":"objects/Harpoon_Projectile/Harpoon_Projectile.yy",},
+    {"name":"Cave_Tileset","order":1,"path":"sprites/Cave_Tileset/Cave_Tileset.yy",},
   ],
 }
