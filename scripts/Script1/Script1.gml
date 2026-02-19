@@ -1,3 +1,3 @@
-function Script1(){
+function collision(){
 
 }
