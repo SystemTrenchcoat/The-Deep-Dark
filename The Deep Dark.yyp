@@ -11,8 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Objects/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Door","folderPath":"folders/Objects/Door.yy","name":"Door","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Objects/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Harpoon","folderPath":"folders/Objects/Harpoon.yy","name":"Harpoon","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Parents","folderPath":"folders/Objects/Parents.yy","name":"Parents","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objects/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
