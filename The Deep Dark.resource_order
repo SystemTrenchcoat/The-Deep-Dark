@@ -1,14 +1,20 @@
 {
   "FolderOrderSettings":[
+    {"name":"Fonts","order":2,"path":"folders/Fonts.yy",},
     {"name":"Door","order":7,"path":"folders/Objects/Door.yy",},
     {"name":"Enemy","order":6,"path":"folders/Objects/Enemy.yy",},
+    {"name":"Global","order":9,"path":"folders/Objects/Global.yy",},
     {"name":"Harpoon","order":3,"path":"folders/Objects/Harpoon.yy",},
     {"name":"Parents","order":4,"path":"folders/Objects/Parents.yy",},
     {"name":"Player","order":5,"path":"folders/Objects/Player.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Font1","order":1,"path":"fonts/Font1/Font1.yy",},
     {"name":"Entity","order":1,"path":"objects/Entity/Entity.yy",},
     {"name":"Harpoon_Projectile","order":1,"path":"objects/Harpoon_Projectile/Harpoon_Projectile.yy",},
+    {"name":"Trash","order":8,"path":"objects/Trash/Trash.yy",},
+    {"name":"UI","order":1,"path":"objects/UI/UI.yy",},
+    {"name":"RoomUI","order":1,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"Cave_Tileset","order":2,"path":"sprites/Cave_Tileset/Cave_Tileset.yy",},
     {"name":"Door_Mask","order":2,"path":"sprites/Door_Mask/Door_Mask.yy",},
     {"name":"Water_Bottle_Sprite","order":1,"path":"sprites/Water_Bottle_Sprite/Water_Bottle_Sprite.yy",},
