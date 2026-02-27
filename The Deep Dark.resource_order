@@ -4,10 +4,10 @@
     {"name":"Door","order":7,"path":"folders/Objects/Door.yy",},
     {"name":"Enemy","order":6,"path":"folders/Objects/Enemy.yy",},
     {"name":"Global","order":9,"path":"folders/Objects/Global.yy",},
-    {"name":"UI","order":10,"path":"folders/Objects/UI.yy",},
     {"name":"Harpoon","order":3,"path":"folders/Objects/Harpoon.yy",},
     {"name":"Parents","order":4,"path":"folders/Objects/Parents.yy",},
     {"name":"Player","order":5,"path":"folders/Objects/Player.yy",},
+    {"name":"UI","order":10,"path":"folders/Objects/UI.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Button","order":1,"path":"objects/Button/Button.yy",},
