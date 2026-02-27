@@ -1,5 +1,6 @@
 //Const/variable declarations go here
-moveSpeed = 1;
+moveSpeed = 0.01
+maxSpeed = 1
 global.fired = false
 global.returning = false
 

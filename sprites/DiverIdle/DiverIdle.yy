@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"DiverIdle",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":41,
-  "bbox_left":10,
-  "bbox_right":36,
+  "bbox_left":16,
+  "bbox_right":30,
   "bbox_top":7,
   "collisionKind":1,
   "collisionTolerance":0,

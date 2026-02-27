@@ -1,4 +1,5 @@
-show_debug_message(string_concat(damageTag, ":", hp));
+
+//show_debug_message(string_concat(damageTag, ":", hp));
 
 if (damaged){
 	damageTimer -= .000001;

@@ -1,13 +1,36 @@
-//Code simplified using the 0 and 1 values provided by keyboard checks, vertical and horizontal will be -1 0 or 1 depending on inputs
-var vertical = ( keyboard_check(vk_down) || keyboard_check(ord("S")) ) - ( keyboard_check(vk_up) || keyboard_check(ord("W")) );
-var horizontal = ( keyboard_check(vk_right) || keyboard_check(ord("D")) ) - ( keyboard_check(vk_left) || keyboard_check(ord("A")) );
+//Code simplified using the 0 and 1 values provided by keyboard checks, 
+//vertical and horizontal will be -1 0 or 1 depending on inputs
+var vertical = ( keyboard_check(vk_down) || keyboard_check(ord("S"))) - 
+			   ( keyboard_check(vk_up) || keyboard_check(ord("W")) );
+var horizontal = ( keyboard_check(vk_right) || keyboard_check(ord("D"))) - 
+				 ( keyboard_check(vk_left) || keyboard_check(ord("A")) );
 
-//Old movement
-//motion_add(270, moveSpeed * vertical);
-//motion_add(0, moveSpeed * horizontal);
-
+motion_add(270, moveSpeed * vertical);
+motion_add(0, moveSpeed * horizontal);
 //Structure for move and collide to allow collisions with wall; make sure this is done after calculating speed with acceleration
-move_and_collide(horizontal * moveSpeed, vertical * moveSpeed, tilemap)
+//move_and_collide(0, 0, tilemap)
+
+if(speed > maxSpeed){
+	motion_set(direction, maxSpeed)
+}
+
+if (speed > 0)
+{
+    friction = 0.005;
+}
+else
+{
+    friction = 0;
+}
+
+show_debug_message(speed)
+
+if(place_meeting(x - 5, y, tilemap)){
+	//motion_set((direction * -1), maxSpeed)
+	show_debug_message("colliding on left!")
+	
+}
+
 
 if (mouse_check_button_pressed(mb_left) && global.fired == false)
 {
