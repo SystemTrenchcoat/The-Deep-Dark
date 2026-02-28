@@ -53,7 +53,6 @@
     {"id":{"name":"Lvl_1","path":"rooms/Lvl_1/Lvl_1.yy",},},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Cave_Tileset","path":"sprites/Cave_Tileset/Cave_Tileset.yy",},},
     {"id":{"name":"DiverIdle","path":"sprites/DiverIdle/DiverIdle.yy",},},
     {"id":{"name":"DiverSwim","path":"sprites/DiverSwim/DiverSwim.yy",},},
