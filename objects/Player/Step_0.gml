@@ -13,7 +13,7 @@ move_y = horizontal * moveSpeed;
 
 //Structure for move and collide to allow collisions with wall; make sure this is done after calculating speed with acceleration
 //move_and_collide(0, 0, tilemap)
-event_inherited();
+//event_inherited();
 
 if(speed > maxSpeed){
 	motion_set(direction, maxSpeed)
@@ -42,4 +42,3 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
         instance_create_layer(x, y, "Instances", Harpoon_Projectile)
 		global.fired = true
 }
-
