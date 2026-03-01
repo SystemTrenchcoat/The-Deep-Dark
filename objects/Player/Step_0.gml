@@ -11,8 +11,6 @@ motion_add(0, moveSpeed * horizontal);
 move_x = vertical * moveSpeed;
 move_y = horizontal * moveSpeed;
 
-event_inherited();
-//move_and_collide(move_x, move_y, tilemap)
 
 if(speed > maxSpeed){
 	motion_set(direction, maxSpeed)
@@ -35,6 +33,8 @@ if(place_meeting(x - 5, y, tilemap)){
 	
 }
 
+event_inherited();
+//move_and_collide(move_x, move_y, tilemap)
 
 if (mouse_check_button_pressed(mb_left) && global.fired == false)
 {
