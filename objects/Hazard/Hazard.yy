@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Damage",
+  "%Name":"Hazard",
   "eventList":[],
   "managed":true,
-  "name":"Damage",
-  "overriddenProperties":[],
+  "name":"Hazard",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"damage_tag","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"damageTag.both",},
+  ],
   "parent":{
     "name":"Parents",
     "path":"folders/Objects/Parents.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Damage",
+    "path":"objects/Damage/Damage.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -23,9 +28,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"damage_tag","filters":[],"listItems":[],"multiselect":false,"name":"damage_tag","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"damageTag.none","varDescription":"Damage collisions check if damage tags are different or null. If the are NOT, do damage. Use only one of the following: Player, Enemy, None, Both","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

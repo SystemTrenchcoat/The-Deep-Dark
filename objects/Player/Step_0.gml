@@ -12,7 +12,7 @@ move_x = vertical * moveSpeed;
 move_y = horizontal * moveSpeed;
 
 //Structure for move and collide to allow collisions with wall; make sure this is done after calculating speed with acceleration
-//move_and_collide(0, 0, tilemap)
+//move_and_collide(move_x, move_y, tilemap)
 event_inherited();
 
 if(speed > maxSpeed){
