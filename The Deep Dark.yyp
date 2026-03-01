@@ -47,6 +47,7 @@
     {"id":{"name":"Game","path":"objects/Game/Game.yy",},},
     {"id":{"name":"Harpoon_Gun","path":"objects/Harpoon_Gun/Harpoon_Gun.yy",},},
     {"id":{"name":"Harpoon_Projectile","path":"objects/Harpoon_Projectile/Harpoon_Projectile.yy",},},
+    {"id":{"name":"Krill","path":"objects/Krill/Krill.yy",},},
     {"id":{"name":"Main_Menu_UI","path":"objects/Main_Menu_UI/Main_Menu_UI.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Trash","path":"objects/Trash/Trash.yy",},},

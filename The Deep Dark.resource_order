@@ -11,6 +11,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Button","order":1,"path":"objects/Button/Button.yy",},
+    {"name":"Enemy","order":2,"path":"objects/Enemy/Enemy.yy",},
     {"name":"Entity","order":1,"path":"objects/Entity/Entity.yy",},
     {"name":"Harpoon_Projectile","order":1,"path":"objects/Harpoon_Projectile/Harpoon_Projectile.yy",},
     {"name":"Main_Menu_UI","order":2,"path":"objects/Main_Menu_UI/Main_Menu_UI.yy",},
