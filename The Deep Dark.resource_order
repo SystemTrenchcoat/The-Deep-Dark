@@ -29,6 +29,7 @@
     {"name":"Cave_Tileset","order":2,"path":"sprites/Cave_Tileset/Cave_Tileset.yy",},
     {"name":"DivingBell","order":3,"path":"sprites/DivingBell/DivingBell.yy",},
     {"name":"Door_Mask","order":2,"path":"sprites/Door_Mask/Door_Mask.yy",},
+    {"name":"HarpoonGun","order":4,"path":"sprites/HarpoonGun/HarpoonGun.yy",},
     {"name":"Water_Bottle_Sprite","order":1,"path":"sprites/Water_Bottle_Sprite/Water_Bottle_Sprite.yy",},
   ],
 }

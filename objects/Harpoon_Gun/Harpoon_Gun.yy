@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Harpoon",
-    "path":"sprites/Harpoon/Harpoon.yy",
+    "name":"HarpoonGun",
+    "path":"sprites/HarpoonGun/HarpoonGun.yy",
   },
   "spriteMaskId":null,
   "visible":true,
