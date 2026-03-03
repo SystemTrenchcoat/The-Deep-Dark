@@ -1,0 +1,1 @@
+move_and_collide(move_x, move_y, tilemap);

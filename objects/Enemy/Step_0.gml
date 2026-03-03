@@ -1,7 +1,7 @@
 //Check if currently moving
 if (moving)  {
     //Move and tick down the timer
-    move_and_collide(move_x, move_y, tilemap);
+   event_inherited();
     move_timer--;
 
     //When timer reaches 0, reset timer and set moving to false

@@ -1,0 +1,1 @@
+global._dt = game_get_speed(gamespeed_fps)/6000;

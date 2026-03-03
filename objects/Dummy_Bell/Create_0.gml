@@ -1,0 +1,1 @@
+//Dive bell that exists at the start of the level, cannot be interacted with

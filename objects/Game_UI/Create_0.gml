@@ -1,1 +1,1 @@
-//This object will control the drawing/updating of UI elements.
+//This object controls the UI in the upgrade shop

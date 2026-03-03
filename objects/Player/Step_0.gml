@@ -7,8 +7,10 @@ var horizontal = ( keyboard_check(vk_right) || keyboard_check(ord("D"))) -
 
 motion_add(270, moveSpeed * vertical);
 motion_add(0, moveSpeed * horizontal);
-//Structure for move and collide to allow collisions with wall; make sure this is done after calculating speed with acceleration
-//move_and_collide(0, 0, tilemap)
+
+move_x = vertical * moveSpeed;
+move_y = horizontal * moveSpeed;
+
 
 if(speed > maxSpeed){
 	motion_set(direction, maxSpeed)
@@ -31,6 +33,8 @@ if(place_meeting(x - 5, y, tilemap)){
 	
 }
 
+event_inherited();
+//move_and_collide(move_x, move_y, tilemap)
 
 if (mouse_check_button_pressed(mb_left) && global.fired == false)
 {
