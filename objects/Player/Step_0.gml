@@ -40,4 +40,5 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
 {
         instance_create_layer(x, y, "Instances", Harpoon_Projectile)
 		global.fired = true
+		global.returning = false
 }

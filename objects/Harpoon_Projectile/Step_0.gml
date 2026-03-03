@@ -1,14 +1,15 @@
 
 // You can write your code in this editor
-//if distance_to_object(Player) > 75
-//{
-	//speed = 0
+if distance_to_object(Player) > 75
+{
+	speed = 0
+	global.returning = true
 	//Harpoon_Projectile.alarm[0] = 30;
-//}
+}
 
 if global.returning == true
 {
-	move_towards_point(Player.x, Player.y, 1)
+	move_towards_point(Player.x, Player.y, 1.5)
 }
 
 if (place_meeting(x, y, Player) && global.returning = true)
