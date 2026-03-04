@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Character",
-    "path":"folders/Sprites/Character.yy",
+    "name":"Krill",
+    "path":"folders/Sprites/Characters/Enemies/Krill.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

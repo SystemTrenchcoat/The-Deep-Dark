@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script2",
+  "%Name":"globals",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script2",
+  "name":"globals",
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -7,6 +7,9 @@ if (damage_state == damageState.damaged){
 	show_debug_message(string_concat(damage_tag, ":", hp));
 	if(hp <= 0){
 		show_debug_message(string_concat(damage_tag, ":KILL"));
+		//If anything other than player has player damage tag, problems will arise
+		if(damage_tag == damageTag.player)
+			room_goto(Main_Menu);
 		instance_destroy();
 	}
 	damage_state = damageState.immune;

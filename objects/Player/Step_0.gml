@@ -41,3 +41,10 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
         instance_create_layer(x, y, "Instances", Harpoon_Projectile)
 		global.fired = true
 }
+
+
+switch(hp)
+{
+	case 2: image_blend = c_yellow; break;
+	case 1: image_blend = c_red; break;
+}

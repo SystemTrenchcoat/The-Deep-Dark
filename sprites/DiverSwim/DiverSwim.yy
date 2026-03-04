@@ -49,8 +49,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Character",
-    "path":"folders/Sprites/Character.yy",
+    "name":"Diver",
+    "path":"folders/Sprites/Characters/Diver.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
