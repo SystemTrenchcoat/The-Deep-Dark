@@ -37,6 +37,8 @@
     {"$GMObjectProperty":"v2","%Name":"upgrade_type","filters":[
         "GMScript",
       ],"listItems":[],"multiselect":false,"name":"upgrade_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"upgradeType.health","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"color","filters":[],"listItems":[],"multiselect":false,"name":"color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF000000","varType":7,},
+    {"$GMObjectProperty":"v2","%Name":"text_y_offset","filters":[],"listItems":[],"multiselect":false,"name":"text_y_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
