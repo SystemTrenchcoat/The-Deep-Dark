@@ -42,3 +42,10 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
 		global.fired = true
 		global.returning = false
 }
+
+
+switch(hp)
+{
+	case 2: image_blend = c_yellow; break;
+	case 1: image_blend = c_red; break;
+}
