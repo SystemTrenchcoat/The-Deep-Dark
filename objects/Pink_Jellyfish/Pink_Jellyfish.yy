@@ -9,7 +9,10 @@
     "name":"Jellyfish",
     "path":"folders/Objects/Enemy/Jellyfish.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Jellyfish",
+    "path":"objects/Jellyfish/Jellyfish.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

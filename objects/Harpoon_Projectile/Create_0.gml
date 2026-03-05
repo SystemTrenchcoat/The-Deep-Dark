@@ -1,5 +1,5 @@
 // You can write your code in this editor
-speed = 10;
+speed = global.harpoonSpeedUpgrade ? 12 : 10;
 direction = point_direction(x,y,mouse_x,mouse_y);
 self.image_angle = point_direction(x,y,mouse_x,mouse_y);
 
