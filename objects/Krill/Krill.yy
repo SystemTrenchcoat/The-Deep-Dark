@@ -8,14 +8,7 @@
   ],
   "managed":true,
   "name":"Krill",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"damage_tag","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Enemy",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"propertyId":{"name":"hp","path":"objects/Entity/Entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"move_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"move_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"wait_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"wait_lower1","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"180",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Enemy",
     "path":"folders/Objects/Enemy.yy",

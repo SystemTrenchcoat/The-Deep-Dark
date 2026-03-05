@@ -46,6 +46,7 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
 
 switch(hp)
 {
+	case 4: image_blend = c_aqua; break;
 	case 2: image_blend = c_yellow; break;
 	case 1: image_blend = c_red; break;
 }
