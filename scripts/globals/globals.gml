@@ -13,4 +13,4 @@ global.playerSpeedUpgrade = false;
 global.trash_count = 0;
 global.quota = 8;
 //Variable for telling the upgrade room what room is next
-global.next_room = "Lvl_1"
+global.next_level = Lvl_2

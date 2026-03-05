@@ -10,3 +10,9 @@ enum damageState{
 	damaged,
 	immune
 }
+
+enum upgradeType {
+    health,
+    harpoon_speed,
+    player_speed
+}

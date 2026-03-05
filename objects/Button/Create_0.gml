@@ -11,7 +11,7 @@ function run_action()
     }
     if(action == "upgrade")
     {
-        
+        upgrade(upgrade_type)
     }
     
 }

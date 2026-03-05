@@ -50,3 +50,5 @@ switch(hp)
 	case 2: image_blend = c_yellow; break;
 	case 1: image_blend = c_red; break;
 }
+
+show_debug_message(string(hp));
