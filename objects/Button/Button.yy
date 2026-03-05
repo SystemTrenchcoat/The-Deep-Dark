@@ -33,6 +33,8 @@
     {"$GMObjectProperty":"v2","%Name":"font","filters":[
         "GMFont",
       ],"listItems":[],"multiselect":false,"name":"font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Micro24","path":"fonts/Micro24/Micro24.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Micro24","varDescription":"the font used fot the button text","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"use_sprite","filters":[],"listItems":[],"multiselect":false,"name":"use_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"upgrade_name","filters":[],"listItems":[],"multiselect":false,"name":"upgrade_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"health","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

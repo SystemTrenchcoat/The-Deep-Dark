@@ -9,5 +9,9 @@ function run_action()
     {
         room_goto(Lvl_1);
     }
+    if(action == "upgrade")
+    {
+        
+    }
     
 }
