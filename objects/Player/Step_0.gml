@@ -5,35 +5,67 @@ var vertical = ( keyboard_check(vk_down) || keyboard_check(ord("S"))) -
 var horizontal = ( keyboard_check(vk_right) || keyboard_check(ord("D"))) - 
 				 ( keyboard_check(vk_left) || keyboard_check(ord("A")) );
 
-motion_add(270, moveSpeed * vertical);
-motion_add(0, moveSpeed * horizontal);
+hspeed += horizontal * moveSpeed
+vspeed += vertical * moveSpeed
 
-move_x = vertical * moveSpeed;
-move_y = horizontal * moveSpeed;
-
-
-if(speed > maxSpeed){
-	motion_set(direction, maxSpeed)
+// Clamp to max speed (diagonal normalization)
+var current_speed = point_distance(0, 0, hspeed, vspeed)
+if (current_speed > maxSpeed) {
+    hspeed = (hspeed / current_speed) * maxSpeed
+    vspeed = (vspeed / current_speed) * maxSpeed
 }
+
+// Friction
+//if (horizontal == 0) hspeed = lerp(hspeed, 0, 0.2)
+//if (vertical == 0) vspeed = lerp(vspeed, 0, 0.2)
 
 if (speed > 0)
 {
-    friction = 0.005;
+    friction = 0.025;
 }
 else
 {
     friction = 0;
 }
 
-show_debug_message(speed)
-
-if(place_meeting(x - 5, y, tilemap)){
-	//motion_set((direction * -1), maxSpeed)
-	show_debug_message("colliding on left!")
-	
+// Horizontal
+x += hspeed
+if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) != 0 ||
+    tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) != 0 ||
+    tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) != 0 ||
+    tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) != 0) {
+    x -= hspeed
+    // Step toward wall one pixel at a time
+    var step_x = sign(hspeed);
+    while (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) == 0 &&
+           tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) == 0 &&
+           tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) == 0 &&
+           tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) == 0) {
+        x += step_x
+    }
+    x -= step_x; // back off the one pixel that caused the collision
+    hspeed = 0
 }
 
-event_inherited();
+// Vertical (same pattern)
+y += vspeed
+if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) != 0 ||
+    tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) != 0 ||
+    tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) != 0 ||
+    tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) != 0) {
+    y -= vspeed
+    var step_y = sign(vspeed);
+    while (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) == 0 &&
+           tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) == 0 &&
+           tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) == 0 &&
+           tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) == 0) {
+        y += step_y
+    }
+    y -= step_y;
+    vspeed = 0
+}
+show_debug_message(speed)
+event_inherited()
 //move_and_collide(move_x, move_y, tilemap)
 
 if (mouse_check_button_pressed(mb_left) && global.fired == false)
