@@ -10,6 +10,7 @@ if (damage_state == damageState.damaged){
 		//If anything other than player has player damage tag, problems will arise
 		if(damage_tag == damageTag.player)
 			room_goto(Main_Menu);
+            global.trash_count = 0;
 		instance_destroy();
 	}
 	damage_state = damageState.immune;
