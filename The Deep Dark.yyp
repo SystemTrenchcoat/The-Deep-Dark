@@ -74,6 +74,7 @@
     {"id":{"name":"Upgrade_Shop","path":"rooms/Upgrade_Shop/Upgrade_Shop.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"enums","path":"scripts/enums/enums.yy",},},
+    {"id":{"name":"get_healthbar_frames","path":"scripts/get_healthbar_frames/get_healthbar_frames.yy",},},
     {"id":{"name":"globals","path":"scripts/globals/globals.yy",},},
     {"id":{"name":"upgrade","path":"scripts/upgrade/upgrade.yy",},},
     {"id":{"name":"BlueJellyfish_Neutral","path":"sprites/BlueJellyfish_Neutral/BlueJellyfish_Neutral.yy",},},

@@ -37,6 +37,7 @@
     {"name":"Main_Menu","order":1,"path":"rooms/Main_Menu/Main_Menu.yy",},
     {"name":"Upgrade_Shop","order":2,"path":"rooms/Upgrade_Shop/Upgrade_Shop.yy",},
     {"name":"RoomUI","order":1,"path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"get_healthbar_frames","order":3,"path":"scripts/get_healthbar_frames/get_healthbar_frames.yy",},
     {"name":"globals","order":1,"path":"scripts/globals/globals.yy",},
     {"name":"upgrade","order":2,"path":"scripts/upgrade/upgrade.yy",},
     {"name":"BlueJellyfish_Zap","order":1,"path":"sprites/BlueJellyfish_Zap/BlueJellyfish_Zap.yy",},

@@ -19,4 +19,24 @@ var x_pos = gui_w - txt_w - pad;
 var y_pos = gui_h - txt_h - pad;
 
 draw_text(x_pos, y_pos, trash_txt);
-draw_text(pad, pad, health_txt)
+//draw_text(pad, pad, health_txt)
+
+//Get the current and max hp values for healthbar drawing
+var hp_frames = get_healthbar_frames(Player.hp, Player.max_hp);
+
+//Width of each healthbar segment
+var seg_w = 32;
+
+for (var i = 0; i < array_length(hp_frames); i++)
+{
+    draw_sprite_ext(
+    Oxy_Bar,
+    hp_frames[i],
+    pad + i * seg_w,
+    pad,
+    2, 2,     // use to change scale of healthbar
+    0,        
+    c_white,  
+    1         
+    );
+}

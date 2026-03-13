@@ -11,4 +11,4 @@ maxSpeed = global.playerSpeedUpgrade ? 0.75 : 0.5;
 
 hp = 3 + global.healthUpgrade;
 //used for drawing health bar
-maxhp = hp;
+max_hp = hp;
