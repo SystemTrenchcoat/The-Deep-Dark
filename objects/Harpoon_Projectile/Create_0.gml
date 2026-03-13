@@ -12,3 +12,8 @@ self.image_angle = point_direction(x,y,mouse_x,mouse_y);
 //stop
 global.returning = true
 //move back to player at a certain pace
+
+//Use this as a timer between when the harpoon starts slowing down and going backwards
+harpoon_buffer = 15;
+//The initial return speed of the harpoon, ramps up so player can't run away from it
+return_speed = 0.5;
