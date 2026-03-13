@@ -4,8 +4,8 @@ function upgrade(upgrade_type){
     //Upgrade selected by the enum the button that was pressed had
     switch(upgrade_type)
     {
-        case upgradeType.health:
-            global.healthUpgrade = true;
+        case upgradeType.player_health:
+            global.healthUpgrade += 1;
             break;
     
         case upgradeType.player_speed:

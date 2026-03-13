@@ -32,11 +32,11 @@
     {"$GMObjectProperty":"v2","%Name":"action","filters":[],"listItems":[],"multiselect":false,"name":"action","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"start-game","varDescription":"the action performed by this button","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"font","filters":[
         "GMFont",
-      ],"listItems":[],"multiselect":false,"name":"font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Micro24","path":"fonts/Micro24/Micro24.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Micro24","varDescription":"the font used fot the button text","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Pixels24","path":"fonts/Pixels24/Pixels24.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Pixels24","varDescription":"the font used fot the button text","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"use_sprite","filters":[],"listItems":[],"multiselect":false,"name":"use_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"upgrade_type","filters":[
         "GMScript",
-      ],"listItems":[],"multiselect":false,"name":"upgrade_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"upgradeType.health","varType":4,},
+      ],"listItems":[],"multiselect":false,"name":"upgrade_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"upgradeType.player_health","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"color","filters":[],"listItems":[],"multiselect":false,"name":"color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF000000","varType":7,},
     {"$GMObjectProperty":"v2","%Name":"text_y_offset","filters":[],"listItems":[],"multiselect":false,"name":"text_y_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],

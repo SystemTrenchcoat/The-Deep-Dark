@@ -5,7 +5,7 @@ global.fired = false;
 global.returning = false;
 
 //Upgrades
-global.healthUpgrade = false;
+global.healthUpgrade = 0;
 global.harpoonSpeedUpgrade = false;
 global.playerSpeedUpgrade = false;
 

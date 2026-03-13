@@ -46,8 +46,8 @@
   "name":"The Deep Dark",
   "resources":[
     {"id":{"name":"Arial24","path":"fonts/Arial24/Arial24.yy",},},
-    {"id":{"name":"Micro16","path":"fonts/Micro16/Micro16.yy",},},
-    {"id":{"name":"Micro24","path":"fonts/Micro24/Micro24.yy",},},
+    {"id":{"name":"Pixels16","path":"fonts/Pixels16/Pixels16.yy",},},
+    {"id":{"name":"Pixels24","path":"fonts/Pixels24/Pixels24.yy",},},
     {"id":{"name":"Blue_Jellyfish","path":"objects/Blue_Jellyfish/Blue_Jellyfish.yy",},},
     {"id":{"name":"Button","path":"objects/Button/Button.yy",},},
     {"id":{"name":"Cyan_Jellyfish","path":"objects/Cyan_Jellyfish/Cyan_Jellyfish.yy",},},
@@ -89,6 +89,7 @@
     {"id":{"name":"Harpoon","path":"sprites/Harpoon/Harpoon.yy",},},
     {"id":{"name":"HarpoonGun","path":"sprites/HarpoonGun/HarpoonGun.yy",},},
     {"id":{"name":"Krill_Enemy","path":"sprites/Krill_Enemy/Krill_Enemy.yy",},},
+    {"id":{"name":"Oxy_Bar","path":"sprites/Oxy_Bar/Oxy_Bar.yy",},},
     {"id":{"name":"PinkJellyfish_Neutral","path":"sprites/PinkJellyfish_Neutral/PinkJellyfish_Neutral.yy",},},
     {"id":{"name":"PinkJellyfish_Zap","path":"sprites/PinkJellyfish_Zap/PinkJellyfish_Zap.yy",},},
     {"id":{"name":"Player_Phr","path":"sprites/Player_Phr/Player_Phr.yy",},},

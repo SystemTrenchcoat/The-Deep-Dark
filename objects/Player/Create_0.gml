@@ -9,4 +9,6 @@ maxSpeed = global.playerSpeedUpgrade ? 0.75 : 0.5;
 //global.fired = false
 //global.returning = false
 
-hp = global.healthUpgrade ? 4 : 3;
+hp = 3 + global.healthUpgrade;
+//used for drawing health bar
+maxhp = hp;
