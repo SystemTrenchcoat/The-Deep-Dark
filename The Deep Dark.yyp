@@ -66,8 +66,10 @@
     {"id":{"name":"Main_Menu_UI","path":"objects/Main_Menu_UI/Main_Menu_UI.yy",},},
     {"id":{"name":"Pink_Jellyfish","path":"objects/Pink_Jellyfish/Pink_Jellyfish.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"Task_Manager","path":"objects/Task_Manager/Task_Manager.yy",},},
     {"id":{"name":"Trash","path":"objects/Trash/Trash.yy",},},
     {"id":{"name":"Upgrade_UI","path":"objects/Upgrade_UI/Upgrade_UI.yy",},},
+    {"id":{"name":"Lvl_0","path":"rooms/Lvl_0/Lvl_0.yy",},},
     {"id":{"name":"Lvl_1","path":"rooms/Lvl_1/Lvl_1.yy",},},
     {"id":{"name":"Lvl_2","path":"rooms/Lvl_2/Lvl_2.yy",},},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
@@ -110,6 +112,7 @@
     {"roomId":{"name":"Lvl_1","path":"rooms/Lvl_1/Lvl_1.yy",},},
     {"roomId":{"name":"Upgrade_Shop","path":"rooms/Upgrade_Shop/Upgrade_Shop.yy",},},
     {"roomId":{"name":"Lvl_2","path":"rooms/Lvl_2/Lvl_2.yy",},},
+    {"roomId":{"name":"Lvl_0","path":"rooms/Lvl_0/Lvl_0.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

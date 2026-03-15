@@ -33,6 +33,7 @@
     {"name":"Pink_Jellyfish","order":2,"path":"objects/Pink_Jellyfish/Pink_Jellyfish.yy",},
     {"name":"Trash","order":8,"path":"objects/Trash/Trash.yy",},
     {"name":"Upgrade_UI","order":3,"path":"objects/Upgrade_UI/Upgrade_UI.yy",},
+    {"name":"Lvl_0","order":4,"path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"Lvl_2","order":3,"path":"rooms/Lvl_2/Lvl_2.yy",},
     {"name":"Main_Menu","order":1,"path":"rooms/Main_Menu/Main_Menu.yy",},
     {"name":"Upgrade_Shop","order":2,"path":"rooms/Upgrade_Shop/Upgrade_Shop.yy",},

@@ -1,2 +1,2 @@
-global.trash_count++;
+global.trashCount++;
 instance_destroy();
