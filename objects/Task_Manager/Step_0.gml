@@ -28,6 +28,10 @@ if(!taskComplete){
 //Going between tasks has a buffer
 else {
     nextTaskTimer--;
+    if(!audioPlayed){
+        audio_play_sound(mission_complete, 5, false);
+        audioPlayed = true;
+    }
 
     if (nextTaskTimer <= 0) {
         AdvanceTask();

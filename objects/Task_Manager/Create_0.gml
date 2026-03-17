@@ -7,6 +7,7 @@ currentTaskIndex = 0;
 //Used to delay between tasks
 taskComplete = false;
 nextTaskTimer = 180;
+audioPlayed = false;
 
 //Task struct
 function Task_Create(_id, _name) {
@@ -60,4 +61,5 @@ function AdvanceTask() {
     currentTaskIndex++;
     taskComplete = false;
     nextTaskTimer = 180;
+    audioPlayed = false;
 }

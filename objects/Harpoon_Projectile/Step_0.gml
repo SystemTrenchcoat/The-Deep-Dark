@@ -13,6 +13,9 @@ if global.returning == true
     if harpoon_buffer <= 0{
         return_speed = lerp(return_speed, 3.5, 0.05);
         move_towards_point(Player.x, Player.y, return_speed);
+        if(!audio_is_playing(chain_returning)){
+           audio_play_sound(chain_returning, 3, false) 
+        }
     }
 	else
         harpoon_buffer--;
@@ -22,6 +25,7 @@ if global.returning == true
 if (place_meeting(x, y, Player) && global.returning = true)
 {
 	instance_destroy();
+    audio_stop_sound(chain_returning);
 	global.returning = false
 	global.fired = false
     harpoon_buffer = 15;

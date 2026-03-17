@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"chain_returning",
+  "audioGroupId":{
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.6236734,
+  "exportDir":"",
+  "name":"chain_returning",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Sound/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"chain_returning.mp3",
+  "volume":1.0,
+}

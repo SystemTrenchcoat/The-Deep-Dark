@@ -66,9 +66,12 @@ event_inherited()
 
 if (mouse_check_button_pressed(mb_left) && global.fired == false)
 {
-        instance_create_layer(x, y, "Instances", Harpoon_Projectile)
-		global.fired = true
-		global.returning = false
+        instance_create_layer(x, y, "Instances", Harpoon_Projectile);
+		global.fired = true;
+		global.returning = false;
+        audio_sound_pitch(harpoon_fire, random_range(0.9, 1.1))
+        audio_play_sound(harpoon_fire, 3, false);
+    
 }
 
 
