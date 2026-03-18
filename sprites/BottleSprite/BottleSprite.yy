@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
   "%Name":"BottleSprite",
-  "bboxMode":0,
-  "bbox_bottom":22,
+  "bboxMode":2,
+  "bbox_bottom":32,
   "bbox_left":0,
   "bbox_right":9,
   "bbox_top":0,

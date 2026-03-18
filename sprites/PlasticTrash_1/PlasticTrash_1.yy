@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
   "%Name":"PlasticTrash_1",
-  "bboxMode":0,
-  "bbox_bottom":21,
+  "bboxMode":2,
+  "bbox_bottom":33,
   "bbox_left":0,
   "bbox_right":15,
   "bbox_top":0,
