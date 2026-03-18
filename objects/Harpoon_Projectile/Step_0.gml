@@ -2,11 +2,22 @@
 
 
 // You can write your code in this editor
-if distance_to_object(Player) > 35
+if (distance_to_object(Player) > 35)
 {
 	speed = lerp(speed, 0.5, 0.15);
 	global.returning = true
 	//Harpoon_Projectile.alarm[0] = 30;
+}
+
+//Have harpoon return/play sound upon hitting wall
+if(tilemap_get_at_pixel(tilemap_id, x, y) != 0){
+    global.returning = true
+    harpoon_buffer = 0;
+    if(!hit_check){
+        audio_sound_pitch(hit_wall, random_range(0.9, 1.1))
+        audio_play_sound(hit_wall, 3, false);
+        hit_check = true;
+    }
 }
 
 if global.returning == true

@@ -97,6 +97,7 @@
     {"id":{"name":"chain_returning","path":"sounds/chain_returning/chain_returning.yy",},},
     {"id":{"name":"enemy_death","path":"sounds/enemy_death/enemy_death.yy",},},
     {"id":{"name":"harpoon_fire","path":"sounds/harpoon_fire/harpoon_fire.yy",},},
+    {"id":{"name":"hit_wall","path":"sounds/hit_wall/hit_wall.yy",},},
     {"id":{"name":"mission_complete","path":"sounds/mission_complete/mission_complete.yy",},},
     {"id":{"name":"player_hit","path":"sounds/player_hit/player_hit.yy",},},
     {"id":{"name":"trash_pickup","path":"sounds/trash_pickup/trash_pickup.yy",},},

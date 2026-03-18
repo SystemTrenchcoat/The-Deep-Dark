@@ -17,3 +17,7 @@ global.returning = true
 harpoon_buffer = 15;
 //The initial return speed of the harpoon, ramps up so player can't run away from it
 return_speed = 0.5;
+
+tilemap_id = layer_tilemap_get_id("Tiles_Col"); 
+
+hit_check = false;

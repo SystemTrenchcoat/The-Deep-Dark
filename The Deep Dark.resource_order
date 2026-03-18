@@ -52,6 +52,7 @@
     {"name":"upgrade","order":2,"path":"scripts/upgrade/upgrade.yy",},
     {"name":"chain_returning","order":1,"path":"sounds/chain_returning/chain_returning.yy",},
     {"name":"harpoon_fire","order":2,"path":"sounds/harpoon_fire/harpoon_fire.yy",},
+    {"name":"hit_wall","order":6,"path":"sounds/hit_wall/hit_wall.yy",},
     {"name":"mission_complete","order":4,"path":"sounds/mission_complete/mission_complete.yy",},
     {"name":"player_hit","order":5,"path":"sounds/player_hit/player_hit.yy",},
     {"name":"trash_pickup","order":3,"path":"sounds/trash_pickup/trash_pickup.yy",},

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"trash_pickup",
+  "%Name":"hit_wall",
   "audioGroupId":{
     "name":"audiogroup_sfx",
     "path":"audiogroups/audiogroup_sfx",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.20897959,
+  "duration":0.41795918,
   "exportDir":"",
-  "name":"trash_pickup",
+  "name":"hit_wall",
   "parent":{
     "name":"SFX",
     "path":"folders/Sound/SFX.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"trash_pickup.mp3",
-  "volume":1.0,
+  "soundFile":"hit_wall.mp3",
+  "volume":0.4,
 }
