@@ -1,7 +1,9 @@
 {
   "$GMTileSet":"v1",
   "%Name":"TileSet1",
-  "autoTileSets":[],
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"Cave_Floor","closed_edge":false,"name":"Cave_Floor","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[14,32,31,8,26,13,33,7,25,27,15,9,20,19,21,34,],},
+  ],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
