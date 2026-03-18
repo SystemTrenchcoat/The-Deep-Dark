@@ -3,23 +3,23 @@
   "%Name":"Cave_Tileset",
   "bboxMode":0,
   "bbox_bottom":175,
-  "bbox_left":16,
+  "bbox_left":15,
   "bbox_right":95,
-  "bbox_top":16,
+  "bbox_top":15,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"8d747a77-f5c2-4d90-a6c8-dfc7516c5b9e","name":"8d747a77-f5c2-4d90-a6c8-dfc7516c5b9e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2bb08e59-d4ef-4a26-a1d1-30fc1872f37f","name":"2bb08e59-d4ef-4a26-a1d1-30fc1872f37f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":176,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ac35248b-6ff6-4443-933e-745b08bb5629","blendMode":0,"displayName":"default","isLocked":false,"name":"ac35248b-6ff6-4443-933e-745b08bb5629","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"28eb9fac-588f-4493-85c5-cecf1b827972","blendMode":0,"displayName":"default","isLocked":false,"name":"28eb9fac-588f-4493-85c5-cecf1b827972","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Cave_Tileset",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d747a77-f5c2-4d90-a6c8-dfc7516c5b9e","path":"sprites/Cave_Tileset/Cave_Tileset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"115e07ea-0725-4017-b4cd-61ecc50ad7c2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2bb08e59-d4ef-4a26-a1d1-30fc1872f37f","path":"sprites/Cave_Tileset/Cave_Tileset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"95a31b88-6058-458f-931e-85374c016309","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
