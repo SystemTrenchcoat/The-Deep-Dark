@@ -7,7 +7,7 @@ function run_action()
 {
     if (action == "start-game")
     {
-        room_goto(Lvl_1);
+        room_goto(Lvl_0);
     }
     if(action == "upgrade")
     {

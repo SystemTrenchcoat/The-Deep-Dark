@@ -20,6 +20,10 @@ if(!taskComplete){
         case "collect_trash_8":
             if (global.trashCount >= 8) taskComplete = true;
             break;
+        
+        case "fire_harpoon":
+            if(global.harpoonFired) taskComplete = true;
+            break;
     
         case "enter_bell":
             break;

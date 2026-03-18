@@ -69,7 +69,10 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1134.0,"y":559.5,},
         {"$GMRInstance":"v4","%Name":"inst_1C1FFAFA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":true,"isDnd":false,"name":"inst_1C1FFAFA1","objectId":{"name":"Cyan_Jellyfish","path":"objects/Cyan_Jellyfish/Cyan_Jellyfish.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":576.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[
+        {"name":"g_Intensity","type":0,"value":"0",},
+        {"name":"g_TintCol","type":1,"value":"#FF0000FF",},
+      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -365,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,
           -35,0,-51,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,
           -35,0,-51,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,-35,0,-51,-2147483648,

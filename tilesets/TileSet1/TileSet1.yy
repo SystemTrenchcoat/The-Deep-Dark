@@ -5,9 +5,12 @@
     {"$GMAutoTileSet":"","%Name":"Cave_Floor","closed_edge":false,"name":"Cave_Floor","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[14,32,31,8,26,13,33,7,25,27,15,9,20,19,21,34,],},
   ],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":18,
+    "SerialiseWidth":11,
+    "TileCompressedData":[
+      6,10,0,37,38,0,44,-5,0,1,16,-4,0,1,50,-5,0,3,22,0,43,-19,0,4,10,0,55,56,-9,0,2,61,62,-139,0,
+    ],
+    "TileDataFormat":1,
   },
   "name":"TileSet1",
   "out_columns":8,

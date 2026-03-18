@@ -5,6 +5,9 @@ var vertical = ( keyboard_check(vk_down) || keyboard_check(ord("S"))) -
 var horizontal = ( keyboard_check(vk_right) || keyboard_check(ord("D"))) - 
 				 ( keyboard_check(vk_left) || keyboard_check(ord("A")) );
 
+if(vertical != 0 || horizontal != 0)
+    global.playerHasMoved = true;
+
 //I switched movement to instead work by manipulating
 //horizontal and vertical speed directly
 hspeed += horizontal * moveSpeed
@@ -71,6 +74,7 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
 		global.returning = false;
         audio_sound_pitch(harpoon_fire, random_range(0.9, 1.1))
         audio_play_sound(harpoon_fire, 3, false);
+        global.harpoonFired = true;
     
 }
 
