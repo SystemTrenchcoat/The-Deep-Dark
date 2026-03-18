@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"Harpoon",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":4,
   "bbox_left":0,
   "bbox_right":14,
@@ -23,7 +23,7 @@
   ],
   "name":"Harpoon",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"GameObjects",
     "path":"folders/Sprites/GameObjects.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":7,
+    "xorigin":2,
     "yorigin":2,
   },
   "swatchColours":null,

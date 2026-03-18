@@ -87,6 +87,7 @@
     {"id":{"name":"Lvl_1","path":"rooms/Lvl_1/Lvl_1.yy",},},
     {"id":{"name":"Lvl_2","path":"rooms/Lvl_2/Lvl_2.yy",},},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
+    {"id":{"name":"Test","path":"rooms/Test/Test.yy",},},
     {"id":{"name":"Upgrade_Shop","path":"rooms/Upgrade_Shop/Upgrade_Shop.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"enums","path":"scripts/enums/enums.yy",},},
@@ -138,6 +139,7 @@
     {"roomId":{"name":"Lvl_2","path":"rooms/Lvl_2/Lvl_2.yy",},},
     {"roomId":{"name":"Lvl_0","path":"rooms/Lvl_0/Lvl_0.yy",},},
     {"roomId":{"name":"Base_Level","path":"rooms/Base_Level/Base_Level.yy",},},
+    {"roomId":{"name":"Test","path":"rooms/Test/Test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

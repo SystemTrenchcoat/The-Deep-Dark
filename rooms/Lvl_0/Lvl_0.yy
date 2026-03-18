@@ -33,7 +33,7 @@
         {"name":"g_CamOffsetScale","type":0,"value":"1",},
         {"name":"g_GlintCol","type":1,"value":"#FF000000",},
         {"name":"g_TintCol","type":1,"value":"#FFFFFFFF",},
-        {"name":"g_AddCol","type":1,"value":"#FF140A00",},
+        {"name":"g_AddCol","type":1,"value":"#FF190C00",},
         {"name":"g_DistortTexture","type":2,"value":"_filter_underwater_noise_sprite",},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

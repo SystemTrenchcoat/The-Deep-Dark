@@ -25,6 +25,7 @@
     {"name":"inst_7E734F61_1","path":"rooms/Lvl_2/Lvl_2.yy",},
     {"name":"inst_36313FB7_1","path":"rooms/Lvl_2/Lvl_2.yy",},
     {"name":"inst_1C1FFAFA1","path":"rooms/Lvl_2/Lvl_2.yy",},
+    {"name":"inst_13C136C0","path":"rooms/Lvl_2/Lvl_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -41,7 +42,7 @@
         {"name":"g_CamOffsetScale","type":0,"value":"1",},
         {"name":"g_GlintCol","type":1,"value":"#FF000000",},
         {"name":"g_TintCol","type":1,"value":"#FFFFFFFF",},
-        {"name":"g_AddCol","type":1,"value":"#FF140A00",},
+        {"name":"g_AddCol","type":1,"value":"#FF190C00",},
         {"name":"g_DistortTexture","type":2,"value":"_filter_underwater_noise_sprite",},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -66,6 +67,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"propertyId":{"name":"room_id","path":"objects/Dive_Bell/Dive_Bell.yy",},"resource":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Main_Menu",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1134.0,"y":559.5,},
         {"$GMRInstance":"v4","%Name":"inst_1C1FFAFA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":true,"isDnd":false,"name":"inst_1C1FFAFA1","objectId":{"name":"Cyan_Jellyfish","path":"objects/Cyan_Jellyfish/Cyan_Jellyfish.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":576.0,},
+        {"$GMRInstance":"v4","%Name":"inst_13C136C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13C136C0","objectId":{"name":"Task_Manager","path":"objects/Task_Manager/Task_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1278.0,"y":728.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[
         {"name":"g_Intensity","type":0,"value":"0",},
