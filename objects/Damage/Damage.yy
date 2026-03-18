@@ -25,6 +25,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"damage_tag","filters":[],"listItems":[],"multiselect":false,"name":"damage_tag","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"damageTag.none","varDescription":"Damage collisions check if damage tags are different or null. If the are NOT, do damage. Use only one of the following: Player, Enemy, None, Both","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"neutral","filters":[],"listItems":[],"multiselect":false,"name":"neutral","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -61,7 +61,7 @@ if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) != 0 ||
     y -= step_y;
     vspeed = 0
 }
-show_debug_message(speed)
+//show_debug_message(speed)
 event_inherited()
 
 if (mouse_check_button_pressed(mb_left) && global.fired == false)
@@ -82,4 +82,4 @@ switch(hp)
 	case 1: image_blend = c_red; break;
 }
 
-show_debug_message(string(hp));
+//show_debug_message(string(hp));
