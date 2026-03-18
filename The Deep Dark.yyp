@@ -22,6 +22,7 @@
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objects/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Levels","folderPath":"folders/Rooms/Levels.yy","name":"Levels","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sound","folderPath":"folders/Sound.yy","name":"Sound","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Music","folderPath":"folders/Sound/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -41,12 +42,14 @@
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_underwater-1.0.0","name":"io.gamemaker.gm_filter_underwater-1.0.0","path":"io.gamemaker.gm_filter_underwater-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"The Deep Dark",
   "resources":[
@@ -74,6 +77,7 @@
     {"id":{"name":"Task_Manager","path":"objects/Task_Manager/Task_Manager.yy",},},
     {"id":{"name":"Trash","path":"objects/Trash/Trash.yy",},},
     {"id":{"name":"Upgrade_UI","path":"objects/Upgrade_UI/Upgrade_UI.yy",},},
+    {"id":{"name":"Base_Level","path":"rooms/Base_Level/Base_Level.yy",},},
     {"id":{"name":"Lvl_0","path":"rooms/Lvl_0/Lvl_0.yy",},},
     {"id":{"name":"Lvl_1","path":"rooms/Lvl_1/Lvl_1.yy",},},
     {"id":{"name":"Lvl_2","path":"rooms/Lvl_2/Lvl_2.yy",},},
@@ -128,6 +132,7 @@
     {"roomId":{"name":"Upgrade_Shop","path":"rooms/Upgrade_Shop/Upgrade_Shop.yy",},},
     {"roomId":{"name":"Lvl_2","path":"rooms/Lvl_2/Lvl_2.yy",},},
     {"roomId":{"name":"Lvl_0","path":"rooms/Lvl_0/Lvl_0.yy",},},
+    {"roomId":{"name":"Base_Level","path":"rooms/Base_Level/Base_Level.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
