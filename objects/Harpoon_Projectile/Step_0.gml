@@ -1,7 +1,6 @@
 
 
 
-// You can write your code in this editor
 if (distance_to_object(Player) > 35)
 {
 	speed = lerp(speed, 0.5, 0.15);
