@@ -45,6 +45,7 @@
     {"name":"Base_Level","order":3,"path":"rooms/Base_Level/Base_Level.yy",},
     {"name":"Lvl_1","order":1,"path":"rooms/Lvl_1/Lvl_1.yy",},
     {"name":"Lvl_2","order":2,"path":"rooms/Lvl_2/Lvl_2.yy",},
+    {"name":"Lvl_4","order":6,"path":"rooms/Lvl_4/Lvl_4.yy",},
     {"name":"Lvl_Test","order":5,"path":"rooms/Lvl_Test/Lvl_Test.yy",},
     {"name":"Test","order":4,"path":"rooms/Test/Test.yy",},
     {"name":"Upgrade_Shop","order":1,"path":"rooms/Upgrade_Shop/Upgrade_Shop.yy",},
