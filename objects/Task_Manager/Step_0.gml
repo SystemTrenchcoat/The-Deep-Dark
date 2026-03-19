@@ -10,15 +10,15 @@ if(!taskComplete){
             break;
     
         case "collect_trash_4":
-            if (global.trashCount >= 4) taskComplete = true;
+            if (global.levelTrashCount >= 4) taskComplete = true;
             break;
     
         case "collect_trash_6":
-            if (global.trashCount >= 6) taskComplete = true;
+            if (global.levelTrashCount >= 6) taskComplete = true;
             break;
     
         case "collect_trash_8":
-            if (global.trashCount >= 8) taskComplete = true;
+            if (global.levelTrashCount >= 8) taskComplete = true;
             break;
         
         case "fire_harpoon":

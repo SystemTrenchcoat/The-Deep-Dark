@@ -2,7 +2,7 @@
 
 
 // You can write your code in this editor
-if (distance_to_object(Player) > 35)
+if (distance_to_object(Player) > 35 + global.harpoonRangeUpgrade)
 {
 	speed = lerp(speed, 0.5, 0.15);
 	global.returning = true
@@ -24,7 +24,7 @@ if global.returning == true
 {
     //Check if we can start going backwards yet
     if harpoon_buffer <= 0{
-        return_speed = lerp(return_speed, 3.5, 0.05);
+        return_speed = return_speed + 0.05;
         move_towards_point(Player.x, Player.y, return_speed);
         if(!audio_is_playing(chain_returning)){
            audio_play_sound(chain_returning, 3, false) 

@@ -13,5 +13,8 @@ function run_action()
     {
         upgrade(upgrade_type)
     }
+    if(action == "next-level"){
+        room_goto(global.next_level);
+    }
     
 }

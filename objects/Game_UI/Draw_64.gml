@@ -3,7 +3,7 @@ draw_set_color(c_white);
 draw_set_font(Pixels24);
 
 //Construct the string and choose padding
-var trash_txt = "Trash: " + string(global.trashCount)
+var trash_txt = "Trash: " + string(global.totalTrashCount)
 var pad = 24;
 var quota_txt = Task_Manager.GetCurrentTaskName();
 
@@ -14,7 +14,7 @@ var gui_h = display_get_gui_height();
 var txt_w = string_width(trash_txt);
 var txt_h = string_height(trash_txt);
 
-//Put trash counter in bottom right
+//Put trash counter in top right
 var x_pos = gui_w - txt_w - pad;
 var y_pos = gui_h - txt_h - pad;
 

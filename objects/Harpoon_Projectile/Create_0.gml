@@ -1,5 +1,5 @@
 // You can write your code in this editor
-speed = global.harpoonSpeedUpgrade ? 12 : 10;
+speed = 10;
 direction = point_direction(x,y,mouse_x,mouse_y);
 self.image_angle = point_direction(x,y,mouse_x,mouse_y);
 
@@ -16,7 +16,7 @@ global.returning = true
 //Use this as a timer between when the harpoon starts slowing down and going backwards
 harpoon_buffer = 15;
 //The initial return speed of the harpoon, ramps up so player can't run away from it
-return_speed = 0.5;
+return_speed = 1.0;
 
 tilemap_id = layer_tilemap_get_id("Tiles_Col"); 
 

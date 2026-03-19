@@ -9,17 +9,13 @@ function upgrade(upgrade_type){
             break;
     
         case upgradeType.player_speed:
-            global.playerSpeedUpgrade = true;
+            global.playerSpeedUpgrade += 1;
             break;
     
-        case upgradeType.harpoon_speed:
-            global.harpoonSpeedUpgrade = true;
+        case upgradeType.harpoon_range:
+            global.harpoonRangeUpgrade += 15;
             break;
     }
     
-    //Go to the next level (this variable is updated by the diving bell)
-    room_goto(global.next_level);
-    
-
     
 }
