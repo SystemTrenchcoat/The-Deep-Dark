@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Enemy_Phr",
-    "path":"sprites/Enemy_Phr/Enemy_Phr.yy",
+    "name":"Projectile_Phr",
+    "path":"sprites/Projectile_Phr/Projectile_Phr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

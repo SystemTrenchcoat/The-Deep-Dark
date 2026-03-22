@@ -34,7 +34,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"neutral_swim","filters":[],"listItems":[],"multiselect":false,"name":"neutral_swim","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"DiverIdle","path":"sprites/DiverIdle/DiverIdle.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"DiverIdle","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"horizontal_swim","filters":[],"listItems":[],"multiselect":false,"name":"horizontal_swim","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"DiverSwim","path":"sprites/DiverSwim/DiverSwim.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"DiverSwim","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

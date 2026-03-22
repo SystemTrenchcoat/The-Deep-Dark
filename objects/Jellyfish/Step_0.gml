@@ -5,11 +5,11 @@ event_inherited();
 if (attack_timer <= 0)  {
     //When timer reaches 0, reset timer and set moving to false
     if (zap) {
-		image_blend = c_yellow;
+		sprite_index = zap_sprite;
 		damage_tag = damageTag.enemy;
     }
 	else{
-		image_blend = c_white;
+		sprite_index = neutral_sprite;
 		damage_tag = damageTag.none;
 	}
 	

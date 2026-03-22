@@ -5,8 +5,28 @@ var vertical = ( keyboard_check(vk_down) || keyboard_check(ord("S"))) -
 var horizontal = ( keyboard_check(vk_right) || keyboard_check(ord("D"))) - 
 				 ( keyboard_check(vk_left) || keyboard_check(ord("A")) );
 
-if(vertical != 0 || horizontal != 0)
+if(vertical != 0 || horizontal != 0){
     global.playerHasMoved = true;
+	
+	if(horizontal != 0)
+		sprite_index = horizontal_swim;
+	else
+		sprite_index = neutral_swim;
+		
+	if(vertical > 0 )
+		image_yscale = -1;
+	else if(horizontal < 0)
+		image_xscale = -1;
+	else{
+		image_xscale = 1;
+		image_yscale = 1;
+	}
+}
+else{
+	sprite_index = neutral_swim;
+	image_xscale = 1;
+	image_yscale = 1;
+}
 
 //I switched movement to instead work by manipulating
 //horizontal and vertical speed directly
@@ -82,6 +102,7 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
 switch(hp)
 {
 	case 4: image_blend = c_aqua; break;
+	case 3: image_blend = c_white; break;
 	case 2: image_blend = c_yellow; break;
 	case 1: image_blend = c_red; break;
 }

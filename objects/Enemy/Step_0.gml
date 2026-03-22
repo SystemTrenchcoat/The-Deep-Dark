@@ -2,7 +2,13 @@
 if (moving)  {
     //Move and tick down the timer
    event_inherited();
-    move_timer--;
+
+	if(move_x > 0)
+		image_xscale = -1;
+	else
+		image_xscale = 1;
+
+	move_timer--;
 
     //When timer reaches 0, reset timer and set moving to false
     if (move_timer <= 0) {

@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Enemy_Phr",
-    "path":"sprites/Enemy_Phr/Enemy_Phr.yy",
+    "name":"Urchin_Enemy",
+    "path":"sprites/Urchin_Enemy/Urchin_Enemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
