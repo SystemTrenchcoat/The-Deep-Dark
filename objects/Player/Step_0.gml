@@ -7,85 +7,102 @@ var horizontal = ( keyboard_check(vk_right) || keyboard_check(ord("D"))) -
 
 if(vertical != 0 || horizontal != 0){
     global.playerHasMoved = true;
-	
-	if(horizontal != 0)
-		sprite_index = horizontal_swim;
-	else
-		sprite_index = neutral_swim;
-		
-	if(vertical > 0 )
-		image_yscale = -1;
-	else if(horizontal < 0)
-		image_xscale = -1;
-	else{
-		image_xscale = 1;
-		image_yscale = 1;
-	}
+    if(horizontal > 0){
+        sprite_index = DiverSwim_Right;
+    }
+    else if(horizontal < 0){
+        sprite_index = DiverSwim_Left;
+    }
+    else if (vertical > 0){
+        sprite_index = DiverIdle_Down;
+    }
+    else{
+        sprite_index = DiverIdle_Up;
+    }
+    
 }
 else{
-	sprite_index = neutral_swim;
-	image_xscale = 1;
-	image_yscale = 1;
+    sprite_index = DiverIdle_Up;
 }
+	
 
-//I switched movement to instead work by manipulating
-//horizontal and vertical speed directly
-hspeed += horizontal * moveSpeed
-vspeed += vertical * moveSpeed
 
-var current_speed = point_distance(0, 0, hspeed, vspeed)
-if (current_speed > maxSpeed) {
-    hspeed = (hspeed / current_speed) * maxSpeed
-    vspeed = (vspeed / current_speed) * maxSpeed
-}
 
-if (speed > 0)
+if (horizontal != 0)
 {
-    friction = 0.005;
+    // Reset acceleration ramp if changing direction
+    if (last_h != horizontal)
+    {
+        last_h = horizontal;
+        accel_h_final = 0;
+    }
+
+    // Accelerate up to max
+    accel_h_final += accel_h;
+    if (accel_h_final > accel_h_max)
+    {
+        accel_h_final = accel_h_max;
+    }
 }
 else
 {
-    friction = 0;
+    // Decelerate back to 0 when no input
+    accel_h_final -= accel_slow;
+    if (accel_h_final < 0)
+    {
+        accel_h_final = 0;
+        last_h = 0;
+    }
 }
 
-// Horizontal Collision
-x += hspeed
-if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) != 0 ||
-    tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) != 0 ||
-    tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) != 0 ||
-    tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) != 0) {
-    x -= hspeed
-    // Step toward wall one pixel at a time
-    var step_x = sign(hspeed);
-    while (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) == 0 &&
-           tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) == 0 &&
-           tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) == 0 &&
-           tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) == 0) {
-        x += step_x
+if (vertical != 0)
+{
+    // Reset acceleration ramp if changing direction
+    if (last_v != vertical)
+    {
+        last_v = vertical;
+        accel_v_final = 0;
     }
-    x -= step_x;
-    hspeed = 0
+
+    // Accelerate up to max
+    accel_v_final += accel_v;
+    if (accel_v_final > accel_v_max)
+    {
+        accel_v_final = accel_v_max;
+    }
+}
+else
+{
+    // Decelerate back to 0 when no input
+    accel_v_final -= accel_slow;
+    if (accel_v_final < 0)
+    {
+        accel_v_final = 0;
+        last_v = 0;
+    }
 }
 
-// Vertical Collision 
-y += vspeed
-if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) != 0 ||
-    tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) != 0 ||
-    tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) != 0 ||
-    tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) != 0) {
-    y -= vspeed
-    var step_y = sign(vspeed);
-    while (tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) == 0 &&
-           tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) == 0 &&
-           tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) == 0 &&
-           tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) == 0) {
-        y += step_y
-    }
-    y -= step_y;
-    vspeed = 0
+// Apply movement
+vsp = accel_v_final * last_v * moveSpeed;
+hsp = accel_h_final * last_h * moveSpeed;
+
+var spd = point_distance(0, 0, hsp, vsp);
+var max_spd = moveSpeed * accel_h_max;
+
+if (spd > max_spd)
+{
+    var dir = point_direction(0, 0, hsp, vsp);
+    hsp = lengthdir_x(max_spd, dir);
+    vsp = lengthdir_y(max_spd, dir);
 }
-//show_debug_message(speed)
-event_inherited()
+
+move_and_collide(hsp, vsp, tilemap);
+
+
+
+
+
+
 
 if (mouse_check_button_pressed(mb_left) && global.fired == false)
 {
