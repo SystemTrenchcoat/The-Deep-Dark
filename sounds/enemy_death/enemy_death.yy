@@ -15,7 +15,7 @@
   "name":"enemy_death",
   "parent":{
     "name":"SFX",
-    "path":"folders/Sound/SFX.yy",
+    "path":"folders/Sprites/Sound/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

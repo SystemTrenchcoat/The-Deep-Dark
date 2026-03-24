@@ -15,7 +15,7 @@
   "name":"mission_complete",
   "parent":{
     "name":"SFX",
-    "path":"folders/Sound/SFX.yy",
+    "path":"folders/Sprites/Sound/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
