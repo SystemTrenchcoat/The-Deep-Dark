@@ -6,11 +6,11 @@ if (attack_timer <= 0)  {
     //When timer reaches 0, reset timer and set moving to false
     if (zap) {
 		sprite_index = zap_sprite;
-		damage_tag = damageTag.enemy;
+		neutral = false;
     }
 	else{
 		sprite_index = neutral_sprite;
-		damage_tag = damageTag.none;
+		neutral = true;
 	}
 	
 	zap = !zap;

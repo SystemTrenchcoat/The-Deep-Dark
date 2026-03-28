@@ -4,7 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"Blue_Jellyfish",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Jellyfish","path":"objects/Jellyfish/Jellyfish.yy",},"propertyId":{"name":"neutral_sprite","path":"objects/Jellyfish/Jellyfish.yy",},"resource":{"name":"BlueJellyfish_Neutral","path":"sprites/BlueJellyfish_Neutral/BlueJellyfish_Neutral.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"BlueJellyfish_Neutral",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Jellyfish","path":"objects/Jellyfish/Jellyfish.yy",},"propertyId":{"name":"zap_sprite","path":"objects/Jellyfish/Jellyfish.yy",},"resource":{"name":"BlueJellyfish_Zap","path":"sprites/BlueJellyfish_Zap/BlueJellyfish_Zap.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"BlueJellyfish_Zap",},
+  ],
   "parent":{
     "name":"Jellyfish",
     "path":"folders/Objects/Enemy/Jellyfish.yy",

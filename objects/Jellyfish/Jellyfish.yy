@@ -1,23 +1,22 @@
 {
   "$GMObject":"",
   "%Name":"Jellyfish",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"Jellyfish",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"attack_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"attack_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"160",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"damage_tag","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"damageTag.none",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"damage_tag","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"damageTag.enemy",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"neutral","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
     "name":"Jellyfish",
     "path":"folders/Objects/Enemy/Jellyfish.yy",
   },
   "parentObjectId":{
-    "name":"Enemy",
-    "path":"objects/Enemy/Enemy.yy",
+    "name":"Semineutral_Enemy",
+    "path":"objects/Semineutral_Enemy/Semineutral_Enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

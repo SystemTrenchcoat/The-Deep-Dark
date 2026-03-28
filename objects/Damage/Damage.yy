@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"Damage",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Damage",
   "overriddenProperties":[],
   "parent":{
-    "name":"Parents",
-    "path":"folders/Objects/Parents.yy",
+    "name":"Entityesque",
+    "path":"folders/Objects/Parents/Entityesque.yy",
   },
   "parentObjectId":null,
   "persistent":false,
