@@ -17,7 +17,6 @@
     {"name":"inst_4515FB2A","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_64AF4268","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_34079BDD","path":"rooms/Lvl_0/Lvl_0.yy",},
-    {"name":"inst_12C460B1","path":"rooms/Lvl_0/Lvl_0.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -51,7 +50,6 @@
         {"$GMRInstance":"v4","%Name":"inst_34079BDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34079BDD","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"propertyId":{"name":"room_id","path":"objects/Dive_Bell/Dive_Bell.yy",},"resource":{"name":"Lvl_1","path":"rooms/Lvl_1/Lvl_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lvl_1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":804.0,"y":347.0,},
-        {"$GMRInstance":"v4","%Name":"inst_12C460B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_12C460B1","objectId":{"name":"Blue_Jellyfish","path":"objects/Blue_Jellyfish/Blue_Jellyfish.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":608.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Tiles_Col","properties":[
         {"name":"g_Intensity","type":0,"value":"0",},

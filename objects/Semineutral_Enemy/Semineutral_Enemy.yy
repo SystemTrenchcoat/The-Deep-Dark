@@ -17,8 +17,8 @@
     "path":"folders/Objects/Parents/Entityesque/Enemies.yy",
   },
   "parentObjectId":{
-    "name":"Enemy",
-    "path":"objects/Enemy/Enemy.yy",
+    "name":"Line_Enemy",
+    "path":"objects/Line_Enemy/Line_Enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
