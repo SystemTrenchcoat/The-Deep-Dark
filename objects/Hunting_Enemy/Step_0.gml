@@ -22,8 +22,15 @@ else  {
 
     //When done waiting, choose random speeds in both directions, set to moving and choose random time to wait after moving
     if (wait_timer <= 0) {
-        move_x = ((instance_find(Player, 0).x - x) + random_range(x_lower, x_upper)) * .01* abs(random_range(x_lower, x_upper));
-        move_y = ((instance_find(Player, 0).y - y) + random_range(y_lower, y_upper)) * .01 * abs(random_range(y_lower, y_upper));
+		xDist = instance_find(Player, 0).x - x + random_range(x_lower, x_upper);
+		xDist = abs(xDist) > x_upper * 2 ? xDist * .01 : xDist;
+		
+		yDist = instance_find(Player, 0).y - y + random_range(y_lower, y_upper);
+		yDist = abs(yDist) > y_upper * 2 ? yDist * .01 : yDist;
+		
+        move_x = xDist;
+        move_y = yDist;
+		
         wait_timer = irandom_range(wait_lower, wait_upper);
         moving = true;
     }
