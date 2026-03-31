@@ -1,0 +1,30 @@
+//Check if currently moving
+if (moving)  {
+    //Move and tick down the timer
+   event_inherited();
+
+	if(move_x > 0)
+		image_xscale = -1;
+	else
+		image_xscale = 1;
+
+	move_timer--;
+
+    //When timer reaches 0, reset timer and set moving to false
+    if (move_timer <= 0) {
+        move_timer = irandom_range(move_lower,move_upper);
+        moving = false;
+    }
+} 
+else  {
+    //Tick down timer between movement
+    wait_timer--;
+
+    //When done waiting, choose random speeds in both directions, set to moving and choose random time to wait after moving
+    if (wait_timer <= 0) {
+        move_x = ((instance_find(Player, 0).x - x) + random_range(x_lower, x_upper)) * .01* abs(random_range(x_lower, x_upper));
+        move_y = ((instance_find(Player, 0).y - y) + random_range(y_lower, y_upper)) * .01 * abs(random_range(y_lower, y_upper));
+        wait_timer = irandom_range(wait_lower, wait_upper);
+        moving = true;
+    }
+}

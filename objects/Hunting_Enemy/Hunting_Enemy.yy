@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Boid_Enemy",
-  "eventList":[],
+  "%Name":"Hunting_Enemy",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Boid_Enemy",
+  "name":"Hunting_Enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Parents/Entityesque/Enemies.yy",
+    "name":"Boids",
+    "path":"folders/Objects/Parents/Entityesque/Enemies/Boids.yy",
   },
   "parentObjectId":{
     "name":"Enemy",

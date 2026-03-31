@@ -14,8 +14,8 @@
     "path":"folders/Objects/Enemy.yy",
   },
   "parentObjectId":{
-    "name":"Enemy",
-    "path":"objects/Enemy/Enemy.yy",
+    "name":"Hunting_Enemy",
+    "path":"objects/Hunting_Enemy/Hunting_Enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
