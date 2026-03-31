@@ -1,6 +1,13 @@
 // Inherit the parent event
 event_inherited(); //gets tileset
 
+//Light modifiers
+light_enabled = true;
+light_radius  = 50;   
+light_alpha   = 0.8;   
+light_color   = c_white;
+
+
 //Const/variable declarations go here
 moveSpeed = 0.5 + (0.1 * global.playerSpeedUpgrade);
 

@@ -15,13 +15,13 @@
   "layers":[
     {"$GMREffectLayer":"","%Name":"Underwater_FX","depth":0,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Underwater_FX","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.096",},
-        {"name":"g_Distort2Speed","type":0,"value":"0.017",},
+        {"name":"g_Distort2Speed","type":0,"value":"0.025",},
         {"name":"g_Distort1Scale","type":0,"value":"20",},
         {"name":"g_Distort1Scale","type":0,"value":"2",},
         {"name":"g_Distort2Scale","type":0,"value":"100",},
         {"name":"g_Distort2Scale","type":0,"value":"10",},
         {"name":"g_Distort1Amount","type":0,"value":"1",},
-        {"name":"g_Distort2Amount","type":0,"value":"3",},
+        {"name":"g_Distort2Amount","type":0,"value":"5",},
         {"name":"g_ChromaSpreadAmount","type":0,"value":"1",},
         {"name":"g_CamOffsetScale","type":0,"value":"1",},
         {"name":"g_GlintCol","type":1,"value":"#FF000000",},
