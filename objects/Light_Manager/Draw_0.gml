@@ -26,8 +26,8 @@ draw_clear_alpha(make_color_rgb(amb, amb, amb), 1);
 // Add lights
 gpu_set_blendmode_ext(bm_one, bm_one);
 
-
-with (Player) {
+//Entities are by default disabled, must override in object to show light
+with (Entity) {
     if (light_enabled) {
         var lx = x - vx;
         var ly = y - vy;
@@ -50,32 +50,58 @@ with (Player) {
     }
 }
 
- 
-
-/*
-with (Harpoon_Gun) {
+//Light sources are by default enabled
+with (Light_Source) {
     if (light_enabled) {
         var lx = x - vx;
         var ly = y - vy;
 
         // Convert desired radius into sprite scale
-        var xscale = (light_radius * 2) / sprite_get_width(test_flashlight);
-        var yscale = (light_radius * 2) / sprite_get_height(test_flashlight);
+        var xscale = (light_radius * 2) / sprite_get_width(Light_Circle);
+        var yscale = (light_radius * 2) / sprite_get_height(Light_Circle);
 
         draw_sprite_ext(
-            test,
+            Light_Circle,
             0,
             lx,
             ly,
             xscale,
             yscale,
-            Harpoon_Gun.image_angle - 90,
+            0,
             light_color,
             light_alpha
         );
     }
 }
-*/
+
+
+//Harpoon projectile has a special light that points in the direction it is aimed at
+with (Harpoon_Projectile) {
+    if (light_enabled) {
+        var lx = x - vx;
+        var ly = y - vy;
+
+        // Convert desired radius into sprite scale
+        var xscale = (light_radius * 2) / sprite_get_width(Light_Circle);
+        var yscale = (light_radius * 2) / sprite_get_height(Light_Circle);
+
+        draw_sprite_ext(
+            test_flashlight,
+            0,
+            lx,
+            ly,
+            xscale,
+            yscale,
+            Harpoon_Projectile.image_angle - 90,
+            light_color,
+            light_alpha
+        );
+    }
+}
+
+ 
+
+
 
 gpu_set_blendmode(bm_normal);
 surface_reset_target();

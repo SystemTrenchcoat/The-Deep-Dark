@@ -22,3 +22,8 @@ return_speed = 1.0;
 tilemap_id = layer_tilemap_get_id("Tiles_Col"); 
 
 hit_check = false;
+
+light_enabled = true;
+light_radius  = 20;   
+light_alpha   = 1.0;   
+light_color   = c_white;
