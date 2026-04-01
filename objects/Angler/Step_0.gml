@@ -5,16 +5,28 @@ playerDist = sqrt( sqr(playerX - x) + sqr((playerY - y) ))
 show_debug_message(string_concat(playerDist, " playerDist!"));
 //if in some proximity to the player
 if (playerDist <= 90)  {
+	
 	//bum rush em
 	self.image_angle = point_direction(x,y,playerX,playerY);
-	show_debug_message(string_concat(playerDist, " close!"));
+	self.image_xscale = -1
+	self.image_yscale = -1
+	if(self.image_angle > 180){
+		show_debug_message(string_concat(self.image_angle, " image angle!"));
+		//self.image_yscale = -1
+	}
+	
+	direction = self.image_angle
+	speed = 0.9
 	
 	
 } 
 else  {
+	
+	direction = self.image_angle
+	speed = 0
 	if (moving)  {
     //Move and tick down the timer
-   event_inherited();
+	event_inherited();
 
 	if(move_x > 0)
 		image_xscale = -1;
