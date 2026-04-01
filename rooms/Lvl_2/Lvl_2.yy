@@ -24,7 +24,6 @@
     {"name":"inst_31196C6A1","path":"rooms/Lvl_2/Lvl_2.yy",},
     {"name":"inst_7E734F61_1","path":"rooms/Lvl_2/Lvl_2.yy",},
     {"name":"inst_36313FB7_1","path":"rooms/Lvl_2/Lvl_2.yy",},
-    {"name":"inst_1C1FFAFA1","path":"rooms/Lvl_2/Lvl_2.yy",},
     {"name":"inst_13C136C0","path":"rooms/Lvl_2/Lvl_2.yy",},
     {"name":"inst_67EBB3CA","path":"rooms/Lvl_2/Lvl_2.yy",},
   ],
@@ -67,7 +66,6 @@
         {"$GMRInstance":"v4","%Name":"inst_36313FB7_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36313FB7_1","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"propertyId":{"name":"room_id","path":"objects/Dive_Bell/Dive_Bell.yy",},"resource":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Main_Menu",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1134.0,"y":559.5,},
-        {"$GMRInstance":"v4","%Name":"inst_1C1FFAFA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C1FFAFA1","objectId":{"name":"Cyan_Jellyfish","path":"objects/Cyan_Jellyfish/Cyan_Jellyfish.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":146.5,"y":640.0,},
         {"$GMRInstance":"v4","%Name":"inst_13C136C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13C136C0","objectId":{"name":"Task_Manager","path":"objects/Task_Manager/Task_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1278.0,"y":728.0,},
         {"$GMRInstance":"v4","%Name":"inst_67EBB3CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_67EBB3CA","path":"rooms/Base_Level/Base_Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_67EBB3CA","objectId":{"name":"Light_Manager","path":"objects/Light_Manager/Light_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1264.0,"y":736.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
