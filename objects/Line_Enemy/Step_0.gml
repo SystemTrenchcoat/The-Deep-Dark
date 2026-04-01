@@ -1,7 +1,7 @@
 //Check if currently moving
 if (moving)  {
     //Move and tick down the timer
-   event_inherited();
+	move_and_collide(move_x, move_y, tilemap, 4, 0, 0, 1, 1);
 
 	if(move_x > 0)
 		image_xscale = -1;
@@ -22,6 +22,7 @@ else  {
 
     //When done waiting, utilizes upper for moving "forward" or lower for moving "backward" (forward first), set to moving and choose random time to wait after moving, also sets forward to its opposite
     if (wait_timer <= 0) {
+		//x = condition ? value_if_true : value_if_false
         move_x = forward ? x_upper : x_lower;
         move_y = forward ? y_upper : y_lower;
         wait_timer = irandom_range(wait_lower, wait_upper);
