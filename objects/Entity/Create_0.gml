@@ -6,3 +6,5 @@ light_enabled = false;
 light_radius  = 60;   
 light_alpha   = 1.0;   
 light_color   = c_white;
+light_offsetx = 0;
+light_offsety = 0;

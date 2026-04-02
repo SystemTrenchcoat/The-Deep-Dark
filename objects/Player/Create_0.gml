@@ -6,6 +6,8 @@ light_enabled = true;
 light_radius  = 30;   
 light_alpha   = 0.8;   
 light_color   = c_white;
+light_offsetx = 0;
+light_offsety = 0;
 
 
 //Const/variable declarations go here

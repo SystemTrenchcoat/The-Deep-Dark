@@ -29,8 +29,8 @@ gpu_set_blendmode_ext(bm_one, bm_one);
 //Entities are by default disabled, must override in object to show light
 with (Entity) {
     if (light_enabled) {
-        var lx = x - vx;
-        var ly = y - vy;
+        var lx = x - vx + lengthdir_x(light_offsetx, -image_angle);
+        var ly = y - vy + lengthdir_y(light_offsety, -image_angle);
 
         // Convert desired radius into sprite scale
         var xscale = (light_radius * 2) / sprite_get_width(Light_Circle);

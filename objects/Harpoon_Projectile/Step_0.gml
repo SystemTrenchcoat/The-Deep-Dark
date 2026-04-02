@@ -39,8 +39,8 @@ if (place_meeting(x, y, Player) && global.returning = true)
 {
 	instance_destroy();
     audio_stop_sound(chain_returning);
-	global.returning = false
-	global.fired = false
+	global.returning = false;
+	global.fired = false;
     harpoon_buffer = 15;
     return_speed = 0.5;
 }
