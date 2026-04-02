@@ -1,6 +1,6 @@
 
   
-show_debug_message(string_concat(damage_tag, ":", hp));
+//show_debug_message(string_concat(damage_tag, ":", hp));
 
 if (damage_state == damageState.damaged){
 	hp -= 1;
@@ -8,9 +8,9 @@ if (damage_state == damageState.damaged){
         audio_sound_pitch(player_hit, random_range(0.9,1.1));
         audio_play_sound(player_hit, 5, false);
     }
-	show_debug_message(string_concat(damage_tag, ":", hp));
+	//show_debug_message(string_concat(damage_tag, ":", hp));
 	if(hp <= 0){
-		show_debug_message(string_concat(damage_tag, ":KILL"));
+		//show_debug_message(string_concat(damage_tag, ":KILL"));
 		//If anything other than player has player damage tag, problems will arise
 		if(damage_tag == damageTag.player){
 			room_goto(Main_Menu);
@@ -30,11 +30,11 @@ if (damage_state == damageState.damaged){
 
 if (damage_state == damageState.immune) {
 	damageTimer -= global._dt;
-	show_debug_message(string_concat(damage_tag, ":", damageTimer));
+	//show_debug_message(string_concat(damage_tag, ":", damageTimer));
 }
 
 if (damageTimer <= 0){
-	show_debug_message("RESET");
+	//show_debug_message("RESET");
 	damageTimer = damageCooldown;
 	damage_state = damageState.neutral;
 }
