@@ -7,10 +7,12 @@ if (attack_timer <= 0)  {
     if (zap) {
 		sprite_index = zap_sprite;
 		neutral = false;
+        light_enabled = true;
     }
 	else{
 		sprite_index = neutral_sprite;
 		neutral = true;
+        light_enabled = false;
 	}
 	
 	zap = !zap;
