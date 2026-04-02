@@ -6,7 +6,7 @@ show_debug_message(string_concat(playerDist, " playerDist!"));
 //if in some proximity to the player
 var move_x = lengthdir_x(0.9, self.image_angle);
 var move_y = lengthdir_y(0.9, self.image_angle);
-if (playerDist <= 90)  {
+if (playerDist <= 120)  {
 	
 	//bum rush em
 	self.image_angle = point_direction(x,y,playerX,playerY);
@@ -19,7 +19,7 @@ if (playerDist <= 90)  {
 	
 	direction = self.image_angle
 	movspeed = 0.9
-	move_and_collide(move_x, move_y, tilemap)
+	move_and_collide(move_x, move_y, tilemap, 1, 90, 90)
 	
 	
 } 

@@ -61,6 +61,7 @@
     {"name":"Lvl_1_Old","order":1,"path":"rooms/Lvl_1_Old/Lvl_1_Old.yy",},
     {"name":"Lvl_1","order":6,"path":"rooms/Lvl_1/Lvl_1.yy",},
     {"name":"Lvl_2","order":2,"path":"rooms/Lvl_2/Lvl_2.yy",},
+    {"name":"Lvl_3","order":8,"path":"rooms/Lvl_3/Lvl_3.yy",},
     {"name":"Lvl_Test","order":5,"path":"rooms/Lvl_Test/Lvl_Test.yy",},
     {"name":"Test","order":4,"path":"rooms/Test/Test.yy",},
     {"name":"Upgrade_Shop","order":1,"path":"rooms/Upgrade_Shop/Upgrade_Shop.yy",},
