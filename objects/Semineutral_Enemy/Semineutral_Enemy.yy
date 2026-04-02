@@ -9,6 +9,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"attack_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"attack_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"160",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"damage_tag","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"damageTag.enemy",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"neutral","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
