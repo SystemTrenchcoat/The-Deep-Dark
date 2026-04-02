@@ -86,7 +86,7 @@ with (Harpoon_Projectile) {
         var yscale = (light_radius * 2) / sprite_get_height(Light_Circle);
 
         draw_sprite_ext(
-            test_flashlight,
+            Light_Beam,
             0,
             lx,
             ly,

@@ -3,4 +3,3 @@ randomise();
 audio_group_load(audiogroup_sfx);
 global.returning = false;
 global.fired = false;
-audio_stop_all();
