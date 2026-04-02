@@ -4,6 +4,8 @@ playerY = instance_find(Player, 0).y
 playerDist = sqrt( sqr(playerX - x) + sqr((playerY - y) ))
 show_debug_message(string_concat(playerDist, " playerDist!"));
 //if in some proximity to the player
+var move_x = lengthdir_x(0.9, self.image_angle);
+var move_y = lengthdir_y(0.9, self.image_angle);
 if (playerDist <= 90)  {
 	
 	//bum rush em
@@ -16,7 +18,8 @@ if (playerDist <= 90)  {
 	}
 	
 	direction = self.image_angle
-	speed = 0.9
+	movspeed = 0.9
+	move_and_collide(move_x, move_y, tilemap)
 	
 	
 } 
