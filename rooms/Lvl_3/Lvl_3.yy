@@ -39,7 +39,7 @@
         {"$GMRInstance":"v4","%Name":"inst_769E0954_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_769E0954_1","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"propertyId":{"name":"room_id","path":"objects/Dive_Bell/Dive_Bell.yy",},"resource":{"name":"Lvl_0","path":"rooms/Lvl_0/Lvl_0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lvl_0",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":592.0,},
-        {"$GMRInstance":"v4","%Name":"inst_67EBB3CA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_67EBB3CA","path":"rooms/Base_Level/Base_Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_67EBB3CA1","objectId":{"name":"Light_Manager","path":"objects/Light_Manager/Light_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1264.0,"y":736.0,},
+        {"$GMRInstance":"v4","%Name":"inst_67EBB3CA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_67EBB3CA","path":"rooms/Boss_Level/Boss_Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_67EBB3CA1","objectId":{"name":"Light_Manager","path":"objects/Light_Manager/Light_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1264.0,"y":736.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Tiles_Col","properties":[
         {"name":"g_Intensity","type":0,"value":"0",},
@@ -75,8 +75,8 @@
     "path":"folders/Rooms/Levels.yy",
   },
   "parentRoom":{
-    "name":"Base_Level",
-    "path":"rooms/Base_Level/Base_Level.yy",
+    "name":"Boss_Level",
+    "path":"rooms/Boss_Level/Boss_Level.yy",
   },
   "physicsSettings":{
     "inheritPhysicsSettings":true,

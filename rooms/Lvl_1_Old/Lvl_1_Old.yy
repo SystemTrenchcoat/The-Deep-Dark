@@ -110,8 +110,8 @@
     "path":"folders/Rooms/Levels.yy",
   },
   "parentRoom":{
-    "name":"Base_Level",
-    "path":"rooms/Base_Level/Base_Level.yy",
+    "name":"Boss_Level",
+    "path":"rooms/Boss_Level/Boss_Level.yy",
   },
   "physicsSettings":{
     "inheritPhysicsSettings":true,
