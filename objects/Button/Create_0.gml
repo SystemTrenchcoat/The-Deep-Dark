@@ -7,13 +7,14 @@ function run_action()
 {
     if (action == "start-game")
     {
-        room_goto(Boss_Level);
+        room_goto(global.currentRoom);
     }
     if(action == "upgrade")
     {
         upgrade(upgrade_type)
     }
     if(action == "next-level"){
+		global.currentRoom = global.next_level
         room_goto(global.next_level);
     }
     

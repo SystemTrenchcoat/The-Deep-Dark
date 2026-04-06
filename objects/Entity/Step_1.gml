@@ -13,8 +13,9 @@ if (damage_state == damageState.damaged){
 		//show_debug_message(string_concat(damage_tag, ":KILL"));
 		//If anything other than player has player damage tag, problems will arise
 		if(damage_tag == damageTag.player){
-			room_goto(Main_Menu);
-            global.trash_count = 0;
+			global.levelTrashCount = 0;
+            global.totalTrashCount = 0;
+			room_goto(Main_Menu);	
         }
         //Play death sound if not player
         else{

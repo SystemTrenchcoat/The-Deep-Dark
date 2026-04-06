@@ -14,6 +14,7 @@ global.levelTrashCount = 0;
 global.totalTrashCount = 0;
 //Variable for telling the upgrade room what room is next
 global.next_level = Lvl_2
+global.currentRoom = Lvl_0;
 
 global.playerHasMoved = false;
 global.krillKilled = 0;
