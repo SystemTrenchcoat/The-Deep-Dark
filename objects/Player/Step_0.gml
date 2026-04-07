@@ -1,4 +1,13 @@
-//Code simplified using the 0 and 1 values provided by keyboard checks, 
+
+oxy_timer--;
+
+if(oxy_timer <= 0){
+    hp--;
+    oxy_timer = 30;
+}
+
+
+
 //vertical and horizontal will be -1 0 or 1 depending on inputs
 var vertical = ( keyboard_check(vk_down) || keyboard_check(ord("S"))) - 
 			   ( keyboard_check(vk_up) || keyboard_check(ord("W")) );
