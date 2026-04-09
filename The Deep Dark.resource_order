@@ -83,6 +83,7 @@
     {"name":"AnglerfishAggro","order":1,"path":"sprites/AnglerfishAggro/AnglerfishAggro.yy",},
     {"name":"BlueJellyfish_Zap","order":1,"path":"sprites/BlueJellyfish_Zap/BlueJellyfish_Zap.yy",},
     {"name":"BottleSprite","order":3,"path":"sprites/BottleSprite/BottleSprite.yy",},
+    {"name":"Bubble","order":6,"path":"sprites/Bubble/Bubble.yy",},
     {"name":"CanSprite","order":4,"path":"sprites/CanSprite/CanSprite.yy",},
     {"name":"Cave_Tileset","order":2,"path":"sprites/Cave_Tileset/Cave_Tileset.yy",},
     {"name":"CyanJellyfish_Neutral","order":1,"path":"sprites/CyanJellyfish_Neutral/CyanJellyfish_Neutral.yy",},

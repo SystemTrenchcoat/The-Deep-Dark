@@ -129,6 +129,7 @@
     {"id":{"name":"BlueJellyfish_Neutral","path":"sprites/BlueJellyfish_Neutral/BlueJellyfish_Neutral.yy",},},
     {"id":{"name":"BlueJellyfish_Zap","path":"sprites/BlueJellyfish_Zap/BlueJellyfish_Zap.yy",},},
     {"id":{"name":"BottleSprite","path":"sprites/BottleSprite/BottleSprite.yy",},},
+    {"id":{"name":"Bubble","path":"sprites/Bubble/Bubble.yy",},},
     {"id":{"name":"CanSprite","path":"sprites/CanSprite/CanSprite.yy",},},
     {"id":{"name":"Cave_Tileset","path":"sprites/Cave_Tileset/Cave_Tileset.yy",},},
     {"id":{"name":"CyanJellyfish_Neutral","path":"sprites/CyanJellyfish_Neutral/CyanJellyfish_Neutral.yy",},},
