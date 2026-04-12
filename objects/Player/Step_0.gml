@@ -1,5 +1,6 @@
-
-oxy_timer--;
+if (!place_meeting(x, y, Oxygen_Replenish)){
+	oxy_timer--;
+}
 
 if(oxy_timer <= 0){
     hp -= 1;

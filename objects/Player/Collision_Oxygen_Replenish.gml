@@ -1,4 +1,4 @@
-if(oxy_timer <= 0){
-    hp += 10;
-    oxy_timer = 30;
+if hp < 90 + global.healthUpgrade{
+	hp += 0.2
 }
+	
