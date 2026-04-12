@@ -2,11 +2,9 @@
 oxy_timer--;
 
 if(oxy_timer <= 0){
-    hp--;
+    hp -= 1;
     oxy_timer = 30;
 }
-
-
 
 //vertical and horizontal will be -1 0 or 1 depending on inputs
 var vertical = ( keyboard_check(vk_down) || keyboard_check(ord("S"))) - 
