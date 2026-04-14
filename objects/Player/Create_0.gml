@@ -17,7 +17,7 @@ moveSpeed = 0.5 + (0.1 * global.playerSpeedUpgrade);
 //global.fired = false
 //global.returning = false
 
-hp = 3 + global.healthUpgrade;
+hp = 90 + global.healthUpgrade;
 //used for drawing health bar
 max_hp = hp;
 
@@ -39,6 +39,9 @@ accel_v_final = 0;
 accel_v_max = accel_max;
 last_v = 0;
 vsp = 0;
+
+//Oxygen depleting
+oxy_timer = 30;
 
 
 
