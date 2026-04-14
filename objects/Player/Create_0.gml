@@ -4,7 +4,7 @@ event_inherited(); //gets tileset
 //Light modifiers
 light_enabled =  true;
 light_radius  = 20;   
-light_alpha   = 0.8;   
+light_alpha   = 0.2;   
 light_color   = c_white;
 light_offsetx = 0;
 light_offsety = 0;
