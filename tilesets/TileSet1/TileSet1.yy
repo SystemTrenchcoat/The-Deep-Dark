@@ -5,17 +5,18 @@
     {"$GMAutoTileSet":"","%Name":"Cave_Floor","closed_edge":false,"name":"Cave_Floor","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[14,32,31,8,26,13,33,7,25,27,15,9,20,19,21,34,],},
   ],
   "macroPageTiles":{
-    "SerialiseHeight":18,
+    "SerialiseHeight":19,
     "SerialiseWidth":11,
     "TileCompressedData":[
       6,10,0,37,38,0,44,-5,0,1,16,-4,0,1,50,-5,0,3,22,0,43,-19,0,4,10,0,55,56,-9,0,2,61,62,-20,0,4,67,68,69,
       70,-7,0,4,73,74,75,76,-7,0,4,79,80,81,82,-7,0,4,85,86,87,88,-7,0,4,91,92,93,94,-7,0,4,97,98,99,100,-7,
-      0,2,103,104,-9,0,2,109,110,-40,0,
+      0,4,103,104,105,106,-7,0,4,109,110,111,112,-7,0,4,115,116,117,118,-7,0,4,121,122,123,124,-7,0,4,127,
+      128,129,130,-7,0,4,133,134,135,136,-5,0,
     ],
     "TileDataFormat":1,
   },
   "name":"TileSet1",
-  "out_columns":11,
+  "out_columns":12,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -41,5 +42,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":114,
+  "tile_count":138,
 }
