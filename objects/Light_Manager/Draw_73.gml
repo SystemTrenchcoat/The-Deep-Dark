@@ -76,14 +76,14 @@ with (Light_Source) {
 
 
 //Harpoon projectile has a special light that points in the direction it is aimed at
-with (Harpoon_Projectile) {
+with (Harpoon_Gun) {
     if (light_enabled) {
         var lx = x - vx;
         var ly = y - vy;
 
         // Convert desired radius into sprite scale
-        var xscale = (light_radius * 2) / sprite_get_width(Light_Circle);
-        var yscale = (light_radius * 2) / sprite_get_height(Light_Circle);
+        var xscale = (light_radius * 2) / sprite_get_width(Light_Beam);
+        var yscale = (light_radius * 2) / sprite_get_height(Light_Beam);
 
         draw_sprite_ext(
             Light_Beam,
@@ -92,7 +92,7 @@ with (Harpoon_Projectile) {
             ly,
             xscale,
             yscale,
-            Harpoon_Projectile.image_angle - 90,
+            Harpoon_Gun.image_angle - 90,
             light_color,
             light_alpha
         );
