@@ -1,0 +1,1 @@
+instance_find(Octopus,0).invincible = false;
