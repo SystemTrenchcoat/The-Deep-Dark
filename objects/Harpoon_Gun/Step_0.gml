@@ -3,7 +3,7 @@
 
 //Light modifiers
 light_enabled = true;
-light_radius  = 40;   
+light_radius  = 60;   
 light_alpha   = 0.8;   
 light_color   = c_white;
 
