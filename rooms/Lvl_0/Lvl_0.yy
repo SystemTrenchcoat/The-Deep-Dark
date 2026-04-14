@@ -13,8 +13,6 @@
     {"name":"inst_742D8950","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_5753CF47","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_34079BDD","path":"rooms/Lvl_0/Lvl_0.yy",},
-    {"name":"inst_76870ECD","path":"rooms/Lvl_0/Lvl_0.yy",},
-    {"name":"inst_68B4796B","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_67EBB3CA","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_5E8C9B28","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_22E634EC","path":"rooms/Lvl_0/Lvl_0.yy",},
@@ -24,7 +22,6 @@
     {"name":"inst_A15AACB","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_6CCBF688","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_46539413","path":"rooms/Lvl_0/Lvl_0.yy",},
-    {"name":"inst_14EBE2D3","path":"rooms/Lvl_0/Lvl_0.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -67,8 +64,6 @@
         {"$GMRInstance":"v4","%Name":"inst_34079BDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34079BDD","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"propertyId":{"name":"room_id","path":"objects/Dive_Bell/Dive_Bell.yy",},"resource":{"name":"Lvl_1","path":"rooms/Lvl_1/Lvl_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lvl_1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":640.0,},
-        {"$GMRInstance":"v4","%Name":"inst_76870ECD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76870ECD","objectId":{"name":"Krill","path":"objects/Krill/Krill.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":640.0,},
-        {"$GMRInstance":"v4","%Name":"inst_68B4796B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68B4796B","objectId":{"name":"Krill","path":"objects/Krill/Krill.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":672.0,},
         {"$GMRInstance":"v4","%Name":"inst_5E8C9B28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E8C9B28","objectId":{"name":"Krill","path":"objects/Krill/Krill.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":516.0,"y":630.0,},
         {"$GMRInstance":"v4","%Name":"inst_67EBB3CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_67EBB3CA","path":"rooms/Boss_Level/Boss_Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_67EBB3CA","objectId":{"name":"Light_Manager","path":"objects/Light_Manager/Light_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1264.0,"y":736.0,},
         {"$GMRInstance":"v4","%Name":"inst_22E634EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_22E634EC","path":"rooms/Boss_Level/Boss_Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_22E634EC","objectId":{"name":"Task_Manager","path":"objects/Task_Manager/Task_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":94.0,"y":204.0,},
@@ -78,7 +73,6 @@
         {"$GMRInstance":"v4","%Name":"inst_A15AACB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A15AACB","objectId":{"name":"Trash","path":"objects/Trash/Trash.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":320.0,},
         {"$GMRInstance":"v4","%Name":"inst_6CCBF688","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6CCBF688","objectId":{"name":"Trash","path":"objects/Trash/Trash.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":224.0,},
         {"$GMRInstance":"v4","%Name":"inst_46539413","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46539413","objectId":{"name":"Oxygen_Replenish","path":"objects/Oxygen_Replenish/Oxygen_Replenish.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":288.0,},
-        {"$GMRInstance":"v4","%Name":"inst_14EBE2D3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14EBE2D3","objectId":{"name":"Oxygen_Replenish","path":"objects/Oxygen_Replenish/Oxygen_Replenish.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":608.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[
         {"name":"g_Intensity","type":0,"value":"0",},
