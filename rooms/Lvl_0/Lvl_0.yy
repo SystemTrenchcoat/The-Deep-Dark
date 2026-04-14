@@ -45,10 +45,11 @@
         {"name":"g_DistortTexture","type":2,"value":"_filter_underwater_noise_sprite",},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Deco_Tile_Front","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Deco_Tile_Front","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
-          -818,-2147483648,2,81,82,-84,-2147483648,2,87,88,-177,-2147483648,2,81,82,-84,-2147483648,2,87,88,-1844,
-          -2147483648,2,69,70,-84,-2147483648,2,75,76,-256,-2147483648,2,69,70,-14,-2147483648,2,69,70,-68,-2147483648,
-          2,75,76,-14,-2147483648,2,75,76,-81,-2147483648,2,69,70,-5,-2147483648,2,69,70,-77,-2147483648,2,75,
-          76,-5,-2147483648,2,75,76,-8,-2147483648,2,69,70,-84,-2147483648,2,75,76,-393,-2147483648,
+          -818,-2147483648,2,81,82,-84,-2147483648,6,87,88,-2147483648,-2147483648,69,70,-84,-2147483648,2,75,
+          76,-87,-2147483648,2,81,82,-84,-2147483648,2,87,88,-1844,-2147483648,2,69,70,-84,-2147483648,2,75,76,
+          -256,-2147483648,2,69,70,-14,-2147483648,2,69,70,-68,-2147483648,2,75,76,-14,-2147483648,2,75,76,-81,
+          -2147483648,2,69,70,-5,-2147483648,2,69,70,-77,-2147483648,2,75,76,-5,-2147483648,2,75,76,-8,-2147483648,
+          2,69,70,-84,-2147483648,2,75,76,-393,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_1BAA80C0_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_1BAA80C0_2","path":"rooms/Boss_Level/Boss_Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_1BAA80C0_2","objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9166667,"scaleY":0.9166667,"x":192.0,"y":640.0,},
