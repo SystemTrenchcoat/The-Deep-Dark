@@ -17,7 +17,7 @@ moveSpeed = 0.5 + (0.1 * global.playerSpeedUpgrade);
 //global.fired = false
 //global.returning = false
 
-hp = 90 + global.healthUpgrade;
+hp = 3 + global.healthUpgrade;
 //used for drawing health bar
 max_hp = hp;
 

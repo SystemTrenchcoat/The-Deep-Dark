@@ -21,7 +21,5 @@ global.krillKilled = 0;
 global.harpoonFired = false;
 
 
-//Don't change this variable
-global.oneHealthSegment = 30;
 
 global.upgrades = [];

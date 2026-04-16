@@ -3,7 +3,7 @@ if (!place_meeting(x, y, Oxygen_Replenish)){
 }
 
 if(oxy_timer <= 0){
-    hp -= 1;
+    hp -= 1 / 30;
     oxy_timer = 30;
 }
 

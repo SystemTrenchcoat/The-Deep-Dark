@@ -2,7 +2,7 @@
 //for the purpose of choosing the frames to draw for the player's healthbar
 function get_healthbar_frames(current_hp, max_hp){
     
-    frame_num = max_hp / global.oneHealthSegment;
+    frame_num = max_hp;
     
     var frames = [];
     

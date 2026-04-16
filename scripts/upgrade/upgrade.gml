@@ -5,7 +5,7 @@ function upgrade(upgrade_type){
     switch(upgrade_type)
     {
         case upgradeType.player_health:
-            global.healthUpgrade += global.oneHealthSegment;
+            global.healthUpgrade += 1;
             break;
     
         case upgradeType.player_speed:
