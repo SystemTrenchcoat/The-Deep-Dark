@@ -1,3 +1,3 @@
 light_surface = -1;
 
-ambient = 0.22;
+ambient = 0.35;

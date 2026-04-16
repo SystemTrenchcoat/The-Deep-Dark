@@ -26,6 +26,7 @@ function GetTasksForRoom(_room) {
                 Task_Create("fire_harpoon", "Fire your harpoon with LMB"),
                 Task_Create("kill_krill", "Kill 1 Krill"),
                 Task_Create("collect_trash_4", "Collect at least 4 trash"),
+                Task_Create("refill_oxy", "Replenish your oxygen using a bubble"),
                 Task_Create("enter_bell", "Enter the Dive Bell")
             ];
 
