@@ -8,6 +8,11 @@ if(!taskComplete){
         case "kill_krill":
             if (global.krillKilled >= 1) taskComplete = true;
             break;
+        
+        case "refill_oxy":
+            if (global.bubbleTouched) taskComplete = true;
+            break;
+        
     
         case "collect_trash_4":
             if (global.levelTrashCount >= 4) taskComplete = true;

@@ -4,7 +4,7 @@ event_inherited(); //gets tileset
 //Light modifiers
 light_enabled =  true;
 light_radius  = 20;   
-light_alpha   = 0.8;   
+light_alpha   = 0.2;   
 light_color   = c_white;
 light_offsetx = 0;
 light_offsety = 0;
@@ -17,7 +17,7 @@ moveSpeed = 0.5 + (0.1 * global.playerSpeedUpgrade);
 //global.fired = false
 //global.returning = false
 
-hp = 90 + global.healthUpgrade;
+hp = 3 + global.healthUpgrade;
 //used for drawing health bar
 max_hp = hp;
 

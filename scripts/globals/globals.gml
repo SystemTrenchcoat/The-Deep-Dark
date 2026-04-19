@@ -16,12 +16,12 @@ global.totalTrashCount = 0;
 global.next_level = Lvl_2
 global.currentRoom = Boss_Level
 
+//Tasks
 global.playerHasMoved = false;
 global.krillKilled = 0;
 global.harpoonFired = false;
+global.bubbleTouched = false;
 
 
-//Don't change this variable
-global.oneHealthSegment = 30;
 
 global.upgrades = [];

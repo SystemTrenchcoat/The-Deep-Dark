@@ -3,7 +3,7 @@ if (!place_meeting(x, y, Oxygen_Replenish)){
 }
 
 if(oxy_timer <= 0){
-    hp -= 1;
+    hp -= 1 / 30;
     oxy_timer = 30;
 }
 
@@ -119,12 +119,16 @@ if (mouse_check_button_pressed(mb_left) && global.fired == false)
 }
 
 
-switch(hp)
-{
-	case 4: image_blend = c_aqua; break;
-	case 3: image_blend = c_white; break;
-	case 2: image_blend = c_yellow; break;
-	case 1: image_blend = c_red; break;
+
+//Since max hp can change can't be switch case
+if(hp >= max_hp * (2/3)){
+    image_blend = c_white;
+}
+else if(hp >= max_hp / 3){
+    image_blend = c_yellow;
+}
+else{
+    image_blend = c_red;
 }
 
 //show_debug_message(string(hp));

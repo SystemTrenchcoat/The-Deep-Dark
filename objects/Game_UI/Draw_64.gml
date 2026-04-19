@@ -26,9 +26,9 @@ var seg_w = 32;
 var hp_frames = get_healthbar_frames(Player.hp, Player.max_hp);
 
 //30 is the space for the two edge pieces, 32 is for each of the new segments
-var hp_width = (30 + (32 * ((Player.max_hp / global.oneHealthSegment)- 2))) * (Player.hp / Player.max_hp);
+var hp_width = (30 + (32 * ((Player.max_hp)- 2))) * (Player.hp / Player.max_hp);
 
-draw_set_color(Player.hp < 30 ? c_red : c_aqua);
+draw_set_color(Player.hp < Player.max_hp / 3 ? c_red : c_aqua);
 
 //Draw underneath the health bar sprite segments
 draw_rectangle(39, 725, 39 + hp_width , 735, false);

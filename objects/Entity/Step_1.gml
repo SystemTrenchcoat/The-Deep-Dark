@@ -3,7 +3,7 @@
 //show_debug_message(string_concat(damage_tag, ":", hp));
 
 if (damage_state == damageState.damaged){
-	hp -= global.oneHealthSegment;
+	hp -= 1;
     if(damage_tag == damageTag.player){
         audio_sound_pitch(player_hit, random_range(0.9,1.1));
         audio_play_sound(player_hit, 5, false);
