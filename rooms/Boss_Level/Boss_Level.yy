@@ -11,6 +11,7 @@
     {"name":"inst_6CF15C33_2","path":"rooms/Boss_Level/Boss_Level.yy",},
     {"name":"inst_22E634EC","path":"rooms/Boss_Level/Boss_Level.yy",},
     {"name":"inst_67EBB3CA","path":"rooms/Boss_Level/Boss_Level.yy",},
+    {"name":"inst_1DB8035F","path":"rooms/Boss_Level/Boss_Level.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -36,6 +37,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6CF15C33_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6CF15C33_2","objectId":{"name":"Game_UI","path":"objects/Game_UI/Game_UI.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1307.0,"y":726.0,},
         {"$GMRInstance":"v4","%Name":"inst_22E634EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22E634EC","objectId":{"name":"Task_Manager","path":"objects/Task_Manager/Task_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":94.0,"y":204.0,},
         {"$GMRInstance":"v4","%Name":"inst_67EBB3CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67EBB3CA","objectId":{"name":"Light_Manager","path":"objects/Light_Manager/Light_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1264.0,"y":736.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1DB8035F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DB8035F","objectId":{"name":"Octopus","path":"objects/Octopus/Octopus.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":624.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[
         {"name":"g_Intensity","type":0,"value":"0",},

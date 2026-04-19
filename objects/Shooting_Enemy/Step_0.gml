@@ -8,6 +8,6 @@ if (attack_timer <= 0)  {
 	for(i = 0; i < attacks; i++)
 	     instance_create_layer(x, y, "Instances", projectile);
 	
-	//show_debug_message("SHOOT");
+	show_debug_message("SHOOT");
 	 attack_timer = irandom_range(attack_lower,attack_upper);
 } 

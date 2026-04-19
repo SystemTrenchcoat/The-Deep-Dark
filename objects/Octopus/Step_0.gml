@@ -1,5 +1,5 @@
 // Inherit the parent event
-if (active_tentacle == noone)
+if (active_tentacle == instance_find(projectile, 20000))
 {
 	event_inherited();
 	active_tentacle = instance_find(projectile, 0);
@@ -9,8 +9,9 @@ if (active_tentacle == noone)
 
 else
 {
-	if(active_tentacle != instance_find(projectile, 0))
+	if(active_tentacle != instance_find(projectile, 0) && instance_find(projectile, 0) != instance_find(projectile, 200000))
 	{
+		event_inherited();
 		active_tentacle = instance_find(projectile, 0);
 		invincible = false;
 	}

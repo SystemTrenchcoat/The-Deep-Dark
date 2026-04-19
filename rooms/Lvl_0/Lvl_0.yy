@@ -23,6 +23,8 @@
     {"name":"inst_6CCBF688","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_46539413","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_14EBE2D3","path":"rooms/Lvl_0/Lvl_0.yy",},
+    {"name":"inst_76870ECD","path":"rooms/Lvl_0/Lvl_0.yy",},
+    {"name":"inst_68B4796B","path":"rooms/Lvl_0/Lvl_0.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -58,7 +60,7 @@
         {"$GMRInstance":"v4","%Name":"inst_5753CF47","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5753CF47","objectId":{"name":"Krill","path":"objects/Krill/Krill.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":519.0,"y":664.0,},
         {"$GMRInstance":"v4","%Name":"inst_34079BDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34079BDD","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Dive_Bell","path":"objects/Dive_Bell/Dive_Bell.yy",},"propertyId":{"name":"room_id","path":"objects/Dive_Bell/Dive_Bell.yy",},"resource":{"name":"Lvl_1","path":"rooms/Lvl_1/Lvl_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lvl_1",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":803.0,"y":347.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":640.0,},
         {"$GMRInstance":"v4","%Name":"inst_76870ECD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76870ECD","objectId":{"name":"Krill","path":"objects/Krill/Krill.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":640.0,},
         {"$GMRInstance":"v4","%Name":"inst_68B4796B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68B4796B","objectId":{"name":"Krill","path":"objects/Krill/Krill.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":672.0,},
         {"$GMRInstance":"v4","%Name":"inst_5E8C9B28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E8C9B28","objectId":{"name":"Krill","path":"objects/Krill/Krill.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":516.0,"y":630.0,},

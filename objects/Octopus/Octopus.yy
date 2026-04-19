@@ -13,6 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"x_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Shooting_Enemy","path":"objects/Shooting_Enemy/Shooting_Enemy.yy",},"propertyId":{"name":"attacks","path":"objects/Shooting_Enemy/Shooting_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Octopus",
