@@ -4,10 +4,17 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Tentacle",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"x_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"x_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"neutral","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Octopus",
     "path":"folders/Objects/Enemy/Octopus.yy",
@@ -29,13 +36,26 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"shadow_const","filters":[],"listItems":[],"multiselect":false,"name":"shadow_const","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.7","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"shadow_timer","filters":[],"listItems":[],"multiselect":false,"name":"shadow_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"shadow_spr","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"shadow_spr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"OctopusArm_Shadow","path":"sprites/OctopusArm_Shadow/OctopusArm_Shadow.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"OctopusArm_Shadow","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"spawn_spr","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"spawn_spr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"OctopusArm_Rising","path":"sprites/OctopusArm_Rising/OctopusArm_Rising.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"OctopusArm_Rising","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"swaying_spr","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"swaying_spr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"OctopusArm","path":"sprites/OctopusArm/OctopusArm.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"OctopusArm","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"spawned","filters":[],"listItems":[],"multiselect":false,"name":"spawned","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Projectile_Phr",
-    "path":"sprites/Projectile_Phr/Projectile_Phr.yy",
+    "name":"OctopusArm_Shadow",
+    "path":"sprites/OctopusArm_Shadow/OctopusArm_Shadow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

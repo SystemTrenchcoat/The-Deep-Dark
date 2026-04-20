@@ -1,3 +1,4 @@
+show_debug_message("Enemy");
 //Check if currently moving
 if (moving)  {
     //Move and tick down the timer

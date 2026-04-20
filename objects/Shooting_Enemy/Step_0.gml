@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-//show_debug_message(string_concat("ATK TMR",attack_timer))
+show_debug_message(string_concat("ATK TMR",attack_timer))
 attack_timer--;
 //Check if currently moving
 if (attack_timer <= 0)  {

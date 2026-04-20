@@ -22,9 +22,6 @@
     {"name":"inst_A15AACB","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_6CCBF688","path":"rooms/Lvl_0/Lvl_0.yy",},
     {"name":"inst_46539413","path":"rooms/Lvl_0/Lvl_0.yy",},
-    {"name":"inst_14EBE2D3","path":"rooms/Lvl_0/Lvl_0.yy",},
-    {"name":"inst_76870ECD","path":"rooms/Lvl_0/Lvl_0.yy",},
-    {"name":"inst_68B4796B","path":"rooms/Lvl_0/Lvl_0.yy",},
   ],
   "isDnd":false,
   "layers":[
