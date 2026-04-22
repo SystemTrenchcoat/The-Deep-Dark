@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
- attack_timer--;
+ attack_timer -= global._dt;
 //Check if currently moving
 if (attack_timer <= 0)  {
     //When timer reaches 0, reset timer and set moving to false

@@ -1,4 +1,4 @@
-show_debug_message("Enemy");
+//show_debug_message("Enemy");
 //Check if currently moving
 if (moving)  {
     //Move and tick down the timer
@@ -9,7 +9,7 @@ if (moving)  {
 	else
 		image_xscale = 1;
 
-	move_timer--;
+	move_timer -= global._dt;
 
     //When timer reaches 0, reset timer and set moving to false
     if (move_timer <= 0) {
@@ -19,7 +19,7 @@ if (moving)  {
 } 
 else  {
     //Tick down timer between movement
-    wait_timer--;
+    wait_timer -= global._dt;
 
     //When done waiting, choose random speeds in both directions, set to moving and choose random time to wait after moving
     if (wait_timer <= 0) {
