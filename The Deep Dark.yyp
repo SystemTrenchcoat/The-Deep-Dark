@@ -128,6 +128,7 @@
     {"id":{"name":"harpoon_fire","path":"sounds/harpoon_fire/harpoon_fire.yy",},},
     {"id":{"name":"hit_wall","path":"sounds/hit_wall/hit_wall.yy",},},
     {"id":{"name":"mission_complete","path":"sounds/mission_complete/mission_complete.yy",},},
+    {"id":{"name":"oxygen_replenish","path":"sounds/oxygen_replenish/oxygen_replenish.yy",},},
     {"id":{"name":"player_hit","path":"sounds/player_hit/player_hit.yy",},},
     {"id":{"name":"trash_pickup","path":"sounds/trash_pickup/trash_pickup.yy",},},
     {"id":{"name":"upgrade_bought","path":"sounds/upgrade_bought/upgrade_bought.yy",},},

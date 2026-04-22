@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"oxygen_replenish",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.0114286,
+  "exportDir":"",
+  "name":"oxygen_replenish",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Sprites/Sound/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"oxygen_replenish.mp3",
+  "volume":0.75,
+}
