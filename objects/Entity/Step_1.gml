@@ -4,9 +4,10 @@
 
 if (damage_state == damageState.damaged){
 	hp -= 1;
-    if(damage_tag == damageTag.player){
-        audio_sound_pitch(player_hit, random_range(0.9,1.1));
-        audio_play_sound(player_hit, 5, false);
+    if(hp != 0){
+        audio_sound_pitch(entity_hit_sound, random_range(0.9,1.1));
+        audio_play_sound(entity_hit_sound, 5, false);
+        hurt_effect_timer = 10;
     }
 	damage_state = damageState.immune;
 }
@@ -21,10 +22,11 @@ if(hp <= 0){
     }
     //Play death sound if not player
     else{
-        audio_sound_pitch(enemy_death, random_range(0.9, 1.1));
-        audio_play_sound(enemy_death, 1, false);
+        audio_sound_pitch(entity_death_sound, random_range(0.9, 1.1));
+        audio_play_sound(entity_death_sound, 1, false);
         global.krillKilled = true;
     }
+
     instance_destroy();
 }
 

@@ -9,14 +9,17 @@ if (!invincible)
 		show_debug_message(stun_timer);
 		sprite_index = stun_spr;
 	}
-	
-	else
+    
+    else
 	{
 		event_inherited();
 		show_debug_message("else");
 		invincible = true;
 		sprite_index = neutral_spr;
 	}
+    
+
+
 }
 
 //else

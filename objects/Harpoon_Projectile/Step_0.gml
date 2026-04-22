@@ -10,7 +10,7 @@ if (distance_to_object(Player) > 35 + global.harpoonRangeUpgrade)
 }
 
 //Have harpoon return/play sound upon hitting wall
-if(tilemap_get_at_pixel(tilemap_id, x, y) != 0){
+if(tilemap_get_at_pixel(tilemap_id, x, y) != 0 || (place_meeting(x, y, Octopus) && Octopus.invincible)){
     global.returning = true
     harpoon_buffer = 0;
     if(!hit_check){
@@ -43,4 +43,10 @@ if (place_meeting(x, y, Player) && global.returning = true)
 	global.fired = false;
     harpoon_buffer = 15;
     return_speed = 0.5;
+}
+
+//Don't pierce enemies that have more than 1 hp
+if (place_meeting(x, y, Enemy) && Enemy.hp > 1){
+    global.returning = true
+    harpoon_buffer = 0;
 }
