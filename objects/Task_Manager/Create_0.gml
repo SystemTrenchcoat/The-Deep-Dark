@@ -41,6 +41,12 @@ function GetTasksForRoom(_room) {
                 Task_Create("collect_trash_8", "Collect at least 8 trash"),
                 Task_Create("enter_bell", "Enter the Dive Bell")
             ];
+            
+        case Boss_Level:
+            return[
+                Task_Create("defeat_trashtopus", "Defeat the Trashtopus!"),
+                Task_Create("enter_bell", "Enter the Dive Bell to return home")
+            ]    
     }
 
     return [];
@@ -54,7 +60,7 @@ function GetCurrentTaskId() {
 
 //Gets the current task name
 function GetCurrentTaskName() {
-    if (currentTaskIndex >= array_length(tasks)) return "All tasks complete";
+    if (currentTaskIndex >= array_length(tasks)) return "ERROR: need to add tasks for level";
     return tasks[currentTaskIndex].name;
 }
 

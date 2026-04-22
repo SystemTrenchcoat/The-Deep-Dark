@@ -21,6 +21,7 @@ global.playerHasMoved = false;
 global.krillKilled = 0;
 global.harpoonFired = false;
 global.bubbleTouched = false;
+global.trashtopusKilled = false;
 
 
 

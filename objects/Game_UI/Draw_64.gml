@@ -50,6 +50,7 @@ for (var i = 0; i < array_length(hp_frames); i++)
     );
 }
 
+//Used to display task and change color to green when complete
 if(!Task_Manager.taskComplete){
     draw_text(pad, pad, "Quota:");
     draw_text(pad + 100, pad, quota_txt);

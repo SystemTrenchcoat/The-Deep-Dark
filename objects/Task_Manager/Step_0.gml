@@ -29,6 +29,10 @@ if(!taskComplete){
         case "fire_harpoon":
             if(global.harpoonFired) taskComplete = true;
             break;
+        
+        case "defeat_trashtopus":
+            if(global.trashtopusKilled) taskComplete = true;
+            break;
     
         case "enter_bell":
             break;
