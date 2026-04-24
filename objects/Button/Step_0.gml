@@ -19,6 +19,16 @@ var top  = y - sprite_yoffset * sy;
 
 hover = point_in_rectangle(mx, my, left, top, left + bw, top + bh);
 
+if(hover && track_hover){
+    var inst = audio_play_sound(button_hover, 1, false);
+    audio_sound_pitch(inst, random_range(0.96, 1.04));
+    track_hover = false;
+}
+
 if (hover && mouse_check_button_pressed(mb_left)) {
+    var inst = audio_play_sound(button_click, 1, false);
+    audio_sound_pitch(inst, random_range(0.9, 1.1));
     run_action();
 }
+
+if(!hover) track_hover = true;

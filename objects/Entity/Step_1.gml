@@ -16,6 +16,7 @@ if(hp <= 0){
     //show_debug_message(string_concat(damage_tag, ":KILL"));
     //If anything other than player has player damage tag, problems will arise
     if(damage_tag == damageTag.player){
+        audio_stop_sound(heavy_breathing);
         global.levelTrashCount = 0;
         global.totalTrashCount = 0;
         room_goto(Main_Menu);	

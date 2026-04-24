@@ -33,6 +33,12 @@ for (var i = 0; i < count; i++)
     }
 }
 
+if(hovered_upgrade > -1 && last_upgrade_hover != hovered_upgrade){
+    var inst = audio_play_sound(button_hover, 1, false);
+    audio_sound_pitch(inst, random_range(0.96, 1.04));
+    last_upgrade_hover = hovered_upgrade;
+}
+
 // Click handling
 pressed_upgrade = -1;
 

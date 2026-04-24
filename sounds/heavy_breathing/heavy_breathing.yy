@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"heavy_breathing",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.6351023,
+  "exportDir":"",
+  "name":"heavy_breathing",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Sound/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"heavy_breathing.mp3",
+  "volume":1.0,
+}

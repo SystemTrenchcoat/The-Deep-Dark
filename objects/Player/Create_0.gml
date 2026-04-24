@@ -46,3 +46,6 @@ oxy_timer = 30;
 entity_death_sound = death_scream;
 
 mask_index = DiverIdle_Up;
+
+low_health_inst = audio_play_sound(heavy_breathing, 1, true);
+audio_sound_gain(low_health_inst, 0, 0);

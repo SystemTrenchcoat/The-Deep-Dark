@@ -20,3 +20,5 @@ icon_scale = 2.0;
 button_size = 64 * button_scale;
 button_gap = 32;
 button_y = 260;
+
+last_upgrade_hover = -1;

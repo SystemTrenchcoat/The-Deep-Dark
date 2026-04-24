@@ -4,8 +4,7 @@ if Player.hp < Player.max_hp{
         snd_handle = audio_play_sound(oxygen_replenish, 1, true);
     }
 	Player.hp += oxyRate
-    //Comment this part out if you don't want the bubble to decrease in size
-    oxyCurrent -= oxyRate;
+    if(limited_oxy) oxyCurrent -= oxyRate; 
     global.bubbleTouched = true;
 }
 else{

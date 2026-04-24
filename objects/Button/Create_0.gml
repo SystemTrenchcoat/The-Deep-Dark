@@ -19,3 +19,6 @@ function run_action()
     }
     
 }
+
+//Used to track whether to play hover sound or not
+track_hover = true;

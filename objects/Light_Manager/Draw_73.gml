@@ -110,3 +110,13 @@ surface_reset_target();
 gpu_set_blendmode_ext(bm_dest_colour, bm_zero);
 draw_surface(light_surface, vx, vy);
 gpu_set_blendmode(bm_normal);
+
+if (red_tint > 0) {
+    gpu_set_blendmode(bm_add); 
+    draw_set_color(make_color_rgb(red_tint, 0, 0));
+
+    draw_rectangle(vx, vy, vx + vw, vy + vh, false);
+
+    draw_set_color(c_white);
+    gpu_set_blendmode(bm_normal);
+}

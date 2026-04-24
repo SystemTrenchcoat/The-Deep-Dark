@@ -132,3 +132,10 @@ else{
 }
 
 //show_debug_message(string(hp));
+
+if(hp < 1.5){
+    audio_sound_gain(low_health_inst, 0.5 - (hp / 3), 0);
+}
+else{
+    audio_sound_gain(low_health_inst, 0, 0);
+}
