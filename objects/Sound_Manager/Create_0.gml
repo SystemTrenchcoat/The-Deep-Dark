@@ -1,0 +1,1 @@
+death_cooldown = 0;

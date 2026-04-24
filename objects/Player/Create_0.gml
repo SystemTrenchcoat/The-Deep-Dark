@@ -43,6 +43,6 @@ vsp = 0;
 //Oxygen depleting
 oxy_timer = 30;
 
-
+entity_death_sound = death_scream;
 
 mask_index = DiverIdle_Up;

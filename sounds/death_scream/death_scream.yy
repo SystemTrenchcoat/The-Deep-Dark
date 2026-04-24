@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"trash_pickup",
+  "%Name":"death_scream",
   "audioGroupId":{
-    "name":"audiogroup_sfx",
-    "path":"audiogroups/audiogroup_sfx",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.20897959,
+  "duration":2.0114286,
   "exportDir":"",
-  "name":"trash_pickup",
+  "name":"death_scream",
   "parent":{
     "name":"SFX",
     "path":"folders/Sound/SFX.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"trash_pickup.mp3",
+  "soundFile":"death_scream.mp3",
   "volume":1.0,
 }

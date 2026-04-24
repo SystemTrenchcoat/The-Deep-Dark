@@ -4,7 +4,7 @@
 
 if (damage_state == damageState.damaged){
 	hp -= 1;
-    if(hp != 0){
+    if(hp > 0){
         audio_sound_pitch(entity_hit_sound, random_range(0.9,1.1));
         audio_play_sound(entity_hit_sound, 5, false);
         hurt_effect_timer = 10;
@@ -20,12 +20,19 @@ if(hp <= 0){
         global.totalTrashCount = 0;
         room_goto(Main_Menu);	
     }
-    //Play death sound if not player
+    //Complete krill task
     else{
-        audio_sound_pitch(entity_death_sound, random_range(0.9, 1.1));
-        audio_play_sound(entity_death_sound, 1, false);
         global.krillKilled = true;
     }
+    
+    if (Sound_Manager.death_cooldown <= 0) {
+        var inst = audio_play_sound(entity_death_sound, 1, false);
+        audio_sound_pitch(inst, random_range(0.9, 1.1));
+        audio_sound_gain(inst, 0.7, 0);
+    
+        Sound_Manager.death_cooldown = 1;
+    }
+
 
     instance_destroy();
 }

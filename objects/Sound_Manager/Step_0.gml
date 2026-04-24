@@ -1,0 +1,1 @@
+if (death_cooldown > 0) death_cooldown--;
