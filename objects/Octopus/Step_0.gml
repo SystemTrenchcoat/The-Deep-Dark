@@ -1,4 +1,4 @@
-if(point_distance(instance_find(Player, 0).x, x,instance_find(Player, 0).y, y) <= activeDist)
+if(point_distance(instance_find(Player, 0).x,instance_find(Player, 0).y, x, y) <= activeDist)
 {
 	if (stun_timer > 0)
 	{
@@ -15,7 +15,7 @@ if(point_distance(instance_find(Player, 0).x, x,instance_find(Player, 0).y, y) <
 		sprite_index = neutral_spr;
 	}
 }
-
+//show_debug_message(point_distance(instance_find(Player, 0).x, x,instance_find(Player, 0).y, y))
 //else
 //{
 //	event_inherited();

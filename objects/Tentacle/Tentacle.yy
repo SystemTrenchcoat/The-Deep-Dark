@@ -11,9 +11,9 @@
   "name":"Tentacle",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"x_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"x_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"x_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Damage","path":"objects/Damage/Damage.yy",},"propertyId":{"name":"neutral","path":"objects/Damage/Damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
