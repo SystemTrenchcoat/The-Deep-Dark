@@ -57,6 +57,7 @@
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"neutral_spr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"OctopusBody","path":"sprites/OctopusBody/OctopusBody.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"OctopusBody","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"activeDist","filters":[],"listItems":[],"multiselect":false,"name":"activeDist","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"maxTent","filters":[],"listItems":[],"multiselect":false,"name":"maxTent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"6","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
