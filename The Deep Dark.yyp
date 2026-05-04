@@ -136,6 +136,7 @@
     {"id":{"name":"buy_something","path":"sounds/buy_something/buy_something.yy",},},
     {"id":{"name":"cant_buy","path":"sounds/cant_buy/cant_buy.yy",},},
     {"id":{"name":"chain_returning","path":"sounds/chain_returning/chain_returning.yy",},},
+    {"id":{"name":"cold_feet","path":"sounds/cold_feet/cold_feet.yy",},},
     {"id":{"name":"death_scream","path":"sounds/death_scream/death_scream.yy",},},
     {"id":{"name":"enemy_death","path":"sounds/enemy_death/enemy_death.yy",},},
     {"id":{"name":"harpoon_fire","path":"sounds/harpoon_fire/harpoon_fire.yy",},},

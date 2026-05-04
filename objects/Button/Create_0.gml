@@ -8,10 +8,10 @@ function run_action()
     if (action == "start-game")
     {
         if (variable_global_exists("menu_music_id")) {
-            audio_sound_gain(global.menu_music_id, 0, 1000); // 1 sec fade-out
+            audio_sound_gain(global.menu_music_id, 0, 250); 
         }
 
-        room_transition(global.currentRoom);
+        room_transition(global.currentRoom, cold_feet);
     }
     if(action == "upgrade")
     {
@@ -19,7 +19,7 @@ function run_action()
     }
     if(action == "next-level"){
 		global.currentRoom = global.next_level
-        room_transition(global.next_level, global.next_music);
+        room_transition(global.next_level, cold_feet);
     }
     if(action == "reset-game"){
         ResetGame();

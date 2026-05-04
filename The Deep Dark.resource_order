@@ -94,6 +94,7 @@
     {"name":"buy_something","order":1,"path":"sounds/buy_something/buy_something.yy",},
     {"name":"cant_buy","order":7,"path":"sounds/cant_buy/cant_buy.yy",},
     {"name":"chain_returning","order":1,"path":"sounds/chain_returning/chain_returning.yy",},
+    {"name":"cold_feet","order":2,"path":"sounds/cold_feet/cold_feet.yy",},
     {"name":"death_scream","order":10,"path":"sounds/death_scream/death_scream.yy",},
     {"name":"harpoon_fire","order":2,"path":"sounds/harpoon_fire/harpoon_fire.yy",},
     {"name":"heavy_breathing","order":13,"path":"sounds/heavy_breathing/heavy_breathing.yy",},
