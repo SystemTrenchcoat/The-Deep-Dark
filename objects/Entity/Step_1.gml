@@ -19,7 +19,7 @@ if(hp <= 0){
         audio_stop_sound(heavy_breathing);
         global.levelTrashCount = 0;
         global.totalTrashCount = 0;
-        room_goto(Main_Menu);	
+        room_goto(YouDied);	
     }
     //Complete krill task
     else{

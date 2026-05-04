@@ -17,6 +17,10 @@ function run_action()
 		global.currentRoom = global.next_level
         room_goto(global.next_level);
     }
+    if(action == "reset-game"){
+        ResetGame();
+        room_goto(Main_Menu);
+    }
     
 }
 
