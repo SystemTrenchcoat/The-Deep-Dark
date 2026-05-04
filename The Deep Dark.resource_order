@@ -87,6 +87,7 @@
     {"name":"get_healthbar_frames","order":3,"path":"scripts/get_healthbar_frames/get_healthbar_frames.yy",},
     {"name":"globals","order":1,"path":"scripts/globals/globals.yy",},
     {"name":"room_transition","order":5,"path":"scripts/room_transition/room_transition.yy",},
+    {"name":"stun","order":6,"path":"scripts/stun/stun.yy",},
     {"name":"upgrade","order":2,"path":"scripts/upgrade/upgrade.yy",},
     {"name":"UpgradeButton","order":4,"path":"scripts/UpgradeButton/UpgradeButton.yy",},
     {"name":"button_click","order":11,"path":"sounds/button_click/button_click.yy",},

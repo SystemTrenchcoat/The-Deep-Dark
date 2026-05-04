@@ -7,8 +7,10 @@ if(point_distance(instance_find(Player, 0).x,instance_find(Player, 0).y, x, y) <
 		sprite_index = stun_spr;
 	}
    
-	else
+	else if (instance_find(projectile, maxTent - 1) == noone)
 	{
+		//if (attack_timer <= 0)
+		//	alarm[0] = 2;
 		event_inherited();
 		//show_debug_message("else");
 		invincible = true;
