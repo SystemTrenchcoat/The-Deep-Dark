@@ -25,6 +25,9 @@ function ResetGame(){
     global.bubbleTouched = false;
     global.trashtopusKilled = false;
     
+    global.next_music = noone;
+    
     global.upgrades = [];
+    
 
 }

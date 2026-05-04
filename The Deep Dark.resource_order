@@ -91,6 +91,7 @@
     {"name":"UpgradeButton","order":4,"path":"scripts/UpgradeButton/UpgradeButton.yy",},
     {"name":"button_click","order":11,"path":"sounds/button_click/button_click.yy",},
     {"name":"button_hover","order":12,"path":"sounds/button_hover/button_hover.yy",},
+    {"name":"buy_something","order":1,"path":"sounds/buy_something/buy_something.yy",},
     {"name":"cant_buy","order":7,"path":"sounds/cant_buy/cant_buy.yy",},
     {"name":"chain_returning","order":1,"path":"sounds/chain_returning/chain_returning.yy",},
     {"name":"death_scream","order":10,"path":"sounds/death_scream/death_scream.yy",},
