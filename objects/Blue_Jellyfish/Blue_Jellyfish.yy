@@ -1,12 +1,27 @@
 {
   "$GMObject":"",
   "%Name":"Blue_Jellyfish",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Blue_Jellyfish",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Jellyfish","path":"objects/Jellyfish/Jellyfish.yy",},"propertyId":{"name":"neutral_sprite","path":"objects/Jellyfish/Jellyfish.yy",},"resource":{"name":"BlueJellyfish_Neutral","path":"sprites/BlueJellyfish_Neutral/BlueJellyfish_Neutral.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"BlueJellyfish_Neutral",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Jellyfish","path":"objects/Jellyfish/Jellyfish.yy",},"propertyId":{"name":"zap_sprite","path":"objects/Jellyfish/Jellyfish.yy",},"resource":{"name":"BlueJellyfish_Zap","path":"sprites/BlueJellyfish_Zap/BlueJellyfish_Zap.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"BlueJellyfish_Zap",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"move_timer","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"attack_timer","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"wait_timer","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"attack_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"attack_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"x_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"x_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"y_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"move_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"move_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"wait_lower","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"wait_upper","path":"objects/Enemy/Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
   ],
   "parent":{
     "name":"Jellyfish",
