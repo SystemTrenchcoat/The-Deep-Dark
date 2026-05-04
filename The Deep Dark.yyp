@@ -129,6 +129,7 @@
     {"id":{"name":"get_healthbar_frames","path":"scripts/get_healthbar_frames/get_healthbar_frames.yy",},},
     {"id":{"name":"globals","path":"scripts/globals/globals.yy",},},
     {"id":{"name":"room_transition","path":"scripts/room_transition/room_transition.yy",},},
+    {"id":{"name":"stun","path":"scripts/stun/stun.yy",},},
     {"id":{"name":"upgrade","path":"scripts/upgrade/upgrade.yy",},},
     {"id":{"name":"UpgradeButton","path":"scripts/UpgradeButton/UpgradeButton.yy",},},
     {"id":{"name":"button_click","path":"sounds/button_click/button_click.yy",},},

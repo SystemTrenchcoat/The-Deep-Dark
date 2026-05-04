@@ -1,0 +1,1 @@
+hp -= global._dt / 5;
