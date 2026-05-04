@@ -41,7 +41,7 @@ last_v = 0;
 vsp = 0;
 
 //Oxygen depleting
-oxy_timer = 30;
+oxy_timer = 60;
 
 entity_death_sound = death_scream;
 

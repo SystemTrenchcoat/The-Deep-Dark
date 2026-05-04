@@ -6,3 +6,4 @@ oxyRate = 0.007;
 xscale = 1;
 yscale = 1;
 
+snd_oxygen_id = noone;
