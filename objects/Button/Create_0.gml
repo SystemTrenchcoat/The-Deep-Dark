@@ -19,7 +19,7 @@ function run_action()
     }
     if(action == "next-level"){
 		global.currentRoom = global.next_level
-        room_transition(global.next_level);
+        room_transition(global.next_level, global.next_music);
     }
     if(action == "reset-game"){
         ResetGame();

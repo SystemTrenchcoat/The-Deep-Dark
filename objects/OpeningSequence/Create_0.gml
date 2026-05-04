@@ -1,3 +1,4 @@
+
 global.intro_faded = false;
 
 menu_timer = 180;

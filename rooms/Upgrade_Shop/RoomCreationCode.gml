@@ -1,1 +1,2 @@
-audio_stop_all();
+audio_stop_sound(heavy_breathing);
+audio_stop_sound(chain_returning);
