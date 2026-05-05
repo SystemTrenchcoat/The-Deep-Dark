@@ -16,8 +16,8 @@ function ResetGame(){
     global.totalTrashCount = 0;
     global.finalTrashCount = 0;
     //Variable for telling the upgrade room what room is next
-    global.next_level = Boss_Level;
-    global.currentRoom = Boss_Level;
+    global.next_level = Lvl_0;
+    global.currentRoom = Lvl_0;
     
     //Tasks
     global.playerHasMoved = false;
