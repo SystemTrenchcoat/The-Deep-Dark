@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"oxygen_replenish",
+  "%Name":"enter_bell",
   "audioGroupId":{
-    "name":"audiogroup_sfx",
-    "path":"audiogroups/audiogroup_sfx",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.49632654,
+  "duration":1.0187755,
   "exportDir":"",
-  "name":"oxygen_replenish",
+  "name":"enter_bell",
   "parent":{
     "name":"SFX",
     "path":"folders/Sound/SFX.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"oxygen_replenish.mp3",
-  "volume":0.45,
+  "soundFile":"enter_bell.mp3",
+  "volume":1.0,
 }
